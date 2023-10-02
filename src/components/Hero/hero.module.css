@@ -1,0 +1,20 @@
+.mainLayout {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-image: url(../../assets/images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.h1 {
+  margin: 70px 0 0 0;
+}
+
+.p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9095a0ff;
+  margin-top: 12px;
+}
