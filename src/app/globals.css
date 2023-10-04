@@ -1,6 +1,7 @@
 body {
-  margin-left: 130px; /* Adjust as needed */
-  margin-right: 130px; /* Adjust as needed */
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  margin: 0;
 }
 
 button {
@@ -11,7 +12,22 @@ h1 {
   font-family: Catamaran;
   font-size: 56px;
   font-weight: 700;
+  margin: 0px;
   color: #323842ff;
+}
+
+h2 {
+  font-family: Catamaran;
+  font-size: 48px;
+  margin: 0px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: Catamaran;
+  font-size: 40px;
+  margin: 0px;
+  font-weight: 700;
 }
 
 p {

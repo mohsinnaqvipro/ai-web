@@ -1,0 +1,36 @@
+.mainLayout {
+  /* background: #f8f9faff; */
+  margin: 68px 100px 0 100px;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider h2 {
+  color: #171a1fff;
+}
+
+.circleIcon {
+  font-size: 52px;
+  color: #9095a0ff;
+  cursor: pointer;
+}
+
+.circleIcon:hover {
+  color: #d221ffff;
+}
+
+.icons {
+  display: flex;
+  gap: 16px;
+}
+
+.cardsLayout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 72px;
+}

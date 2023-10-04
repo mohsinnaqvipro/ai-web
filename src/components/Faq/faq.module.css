@@ -1,0 +1,26 @@
+.mainLayout {
+  background: #171a1fff; /* neutral-900 */
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+}
+
+.mainLayout h2 {
+  display: flex;
+  justify-content: center;
+  color: #ffffffff;
+  padding-top: 67px;
+}
+
+.mainLayout p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffffff;
+}
+
+.lineSeparator {
+  border-bottom: 1px solid #bcc1caff;
+  height: 2px;
+}

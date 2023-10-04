@@ -1,7 +1,8 @@
 import React from 'react'
+import Testimonials from '@/components/Testimonials'
 
 const TestimonialsPage = () => {
-  return
+  return <Testimonials />
 }
 
 export default TestimonialsPage
