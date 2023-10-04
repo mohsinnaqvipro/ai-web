@@ -4,8 +4,8 @@
   flex-direction: row;
   justify-content: space-between;
   color: #fff;
-  margin: 0 0 62px 0;
 }
+
 .footerLogo {
   display: flex;
   flex-direction: column;
@@ -18,10 +18,12 @@
 .social img {
   margin-left: 8px;
 }
+
 .footerMenu {
   padding: 50px;
   margin-right: 50px;
 }
+
 .footerMenu li {
   list-style: none;
   padding-top: 8px;
