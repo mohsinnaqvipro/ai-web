@@ -3,8 +3,8 @@ import styles from "./textFeatureTwo.module.css";
 
 const TextFeatureTwo = () => {
   return (
-    <div className={styles.containerTool}>
-      <h2>One AI tool, all the best models</h2>
+    <div className={styles.mainLayout}>
+      <h2>One AI tool,<br /> all the best models</h2>
       <p>
         Aute magna ut dolore anim est incididunt incididunt. Tempor qui nostrud
         labore proident fugiat excepteur anim elit ea adipisicing voluptate

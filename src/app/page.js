@@ -7,22 +7,19 @@ import FooterLayout from "./Footer/page";
 import TextFeatureOnePage from "./TextFeatureOne/page";
 import TextFeatureTwoPage from "./TextFeatureTwo/page";
 import FeatureImageTwoPage from "./FeatureImageTwo/page";
-import FeatureImagePage from '@/components/FeatureImage';
 
 export default function Home() {
   return (
     <>
       <NavbarPage />
       <HeroPage />
-      <TestimonialsPage />
-      <FaqPage />
       <FeatureImageTwoPage />
-      <CtaOne />
+      <TestimonialsPage />
       <TextFeatureOnePage />
       <TextFeatureTwoPage />
+      <CtaOne />
+      <FaqPage />
       <FooterLayout />
-      <FeatureImagePage flag={true} />
-      <FeatureImagePage flag={false} />
     </>
   );
 }

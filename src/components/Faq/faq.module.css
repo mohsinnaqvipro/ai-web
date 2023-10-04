@@ -1,16 +1,16 @@
 .mainLayout {
-  background: #171a1fff; /* neutral-900 */
+  background: #171a1fff;
   border-radius: 4px;
   width: 100%;
   height: auto;
-  margin-top: 60px;
+  padding-bottom: 20px;
 }
 
 .mainLayout h2 {
   display: flex;
   justify-content: center;
   color: #ffffffff;
-  padding-top: 67px;
+  padding: 67px 0 67px 0;
 }
 
 .mainLayout p {
@@ -23,4 +23,9 @@
 .lineSeparator {
   border-bottom: 1px solid #bcc1caff;
   height: 2px;
+  margin: 10px 0 10px 0;
+}
+
+.container {
+  margin: 0 100px 0 100px;
 }

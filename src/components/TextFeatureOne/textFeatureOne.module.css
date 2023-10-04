@@ -1,18 +1,19 @@
-.containerMission {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+.mainLayout {
   background-color: #171a1fff;
-  margin: 0 0 62px 0;
-  padding: 50px;
+  /* margin: 0 0 62px 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0 80px 0;
   color: #fff;
 }
-.missionDescription {
-  display: flex;
-  text-align: center;
-  justify-content: center;
+
+.mainLayout h2 {
+  margin: 40px 0 20px 0;
 }
-.missionDescription p {
-  max-width: 700px;
+
+.mainLayout p {
+  max-width: 600px;
+  text-align: center;
 }
