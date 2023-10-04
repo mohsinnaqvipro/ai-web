@@ -2,14 +2,18 @@ import FaqPage from './Faq/page'
 import HeroPage from './Hero/page'
 import NavbarPage from './Navbar/page'
 import TestimonialsPage from './Testimonials/page'
-import CtaOne from "./CtaOne/page";
-import FooterLayout from "./Footer/page";
-import TextFeatureOnePage from "./TextFeatureOne/page";
-import TextFeatureTwoPage from "./TextFeatureTwo/page";
-import FeatureImageTwoPage from "./FeatureImageTwo/page";
-import FeatureImagePage from '@/components/FeatureImage';
+import CtaOne from './CtaOne/page'
+import FooterLayout from './Footer/page'
+import TextFeatureOnePage from './TextFeatureOne/page'
+import TextFeatureTwoPage from './TextFeatureTwo/page'
+import FeatureImageTwoPage from './FeatureImageTwo/page'
+import FeatureImagePage from './FeatureImage/page'
+import {
+  featureImageContent,
+  featureImage1Content
+} from '@/shared/Constants/constants'
 
-export default function Home() {
+export default function Home () {
   return (
     <>
       <NavbarPage />
@@ -21,8 +25,8 @@ export default function Home() {
       <TextFeatureOnePage />
       <TextFeatureTwoPage />
       <FooterLayout />
-      <FeatureImagePage flag={true} />
-      <FeatureImagePage flag={false} />
+      <FeatureImagePage flag={true} content={featureImageContent} />
+      <FeatureImagePage flag={false} content={featureImage1Content} />
     </>
-  );
+  )
 }
