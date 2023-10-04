@@ -1,0 +1,23 @@
+.mainLayout {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../assets/images/ctaOne.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  margin: 0 0 62px 0;
+}
+
+.h2 {
+  margin: 100px 0 0 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffffff;
+  left: 498px;
+  line-height: 68px;
+}
