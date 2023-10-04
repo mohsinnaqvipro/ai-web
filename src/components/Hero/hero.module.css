@@ -23,8 +23,8 @@
 }
 
 .video {
-  margin: 0 100px 62px 100px;
   max-width: 85%;
   display: block;
   margin: 0 auto;
+  padding-bottom: 72px;
 }

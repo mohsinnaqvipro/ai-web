@@ -15,7 +15,7 @@ const Question = ({ question, answer }) => {
     <>
       <div className={styles.toggle}>
         <h3>{question}</h3>
-        {!isOpen ? (
+        {isOpen ? (
           <UpCircleOutlined
             onClick={toggleQuestion}
             className={styles.upCircle}
