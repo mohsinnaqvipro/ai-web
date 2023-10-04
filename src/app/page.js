@@ -2,13 +2,12 @@ import FaqPage from './Faq/page'
 import HeroPage from './Hero/page'
 import NavbarPage from './Navbar/page'
 import TestimonialsPage from './Testimonials/page'
-import Hero from "./Hero/page";
-import NavbarPage from "./Navbar/page";
 import CtaOne from "./CtaOne/page";
 import FooterLayout from "./Footer/page";
-import TextFeatureOne from "./TextFeatureOne/page";
-import TextFeatureTwo from "./TextFeatureTwo/page";
-import FeatureImageTwo from "./FeatureImageTwo/page";
+import TextFeatureOnePage from "./TextFeatureOne/page";
+import TextFeatureTwoPage from "./TextFeatureTwo/page";
+import FeatureImageTwoPage from "./FeatureImageTwo/page";
+import FeatureImagePage from '@/components/FeatureImage';
 
 export default function Home() {
   return (
@@ -17,12 +16,13 @@ export default function Home() {
       <HeroPage />
       <TestimonialsPage />
       <FaqPage />
-      <Hero />
-      <FeatureImageTwo />
+      <FeatureImageTwoPage />
       <CtaOne />
-      <TextFeatureOne />
-      <TextFeatureTwo />
+      <TextFeatureOnePage />
+      <TextFeatureTwoPage />
       <FooterLayout />
+      <FeatureImagePage flag={true} />
+      <FeatureImagePage flag={false} />
     </>
   );
 }

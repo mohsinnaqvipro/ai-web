@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./textFeatureOne.module.css";
 
-export default function index() {
+const TextFeatureOne = () => {
   return (
     <div className={styles.containerMission}>
       <h2>Our Mission</h2>
@@ -15,3 +15,5 @@ export default function index() {
     </div>
   );
 }
+
+export default TextFeatureOne;

@@ -5,7 +5,7 @@ import styles from "./featureImageTwo.module.css";
 import Image from "next/image";
 import featureImage from "@/assets/images/FeatureImage.jpg";
 
-export default function index() {
+const FeatureImageTwo = () => {
   return (
     // <div className={styles.featureContainer}>
     //   <div>
@@ -21,3 +21,5 @@ export default function index() {
     </div>
   );
 }
+
+export default FeatureImageTwo

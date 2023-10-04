@@ -1,8 +1,8 @@
 import React from "react";
-import FeatureImage from "@/components/FeatureImageTwo";
+import FeatureImageTwo from "@/components/FeatureImageTwo";
 
-const FeatureImageTwo = () => {
-  return <FeatureImage />;
+const FeatureImageTwoPage = () => {
+  return <FeatureImageTwo />;
 };
 
-export default FeatureImageTwo;
+export default FeatureImageTwoPage;
