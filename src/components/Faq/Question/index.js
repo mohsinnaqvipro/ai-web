@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import { UpCircleOutlined, DownCircleOutlined } from '@ant-design/icons'
-import styles from './Question.module.css'
+import styles from './question.module.css'
 
 const Question = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false)
