@@ -1,8 +1,8 @@
 import React from "react";
 import CtaOne from "@/components/CtaOne";
 
-const CatOne = () => {
+const CtaOnePage = () => {
   return <CtaOne />;
 };
 
-export default CtaOne;
+export default CtaOnePage;

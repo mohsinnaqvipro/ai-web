@@ -63,3 +63,21 @@ export const featureImage1Content = {
   headingText: 'Instantly visualize your ideas',
   msg: 'Aute magna ut dolore anim est incididunt incididunt. Tempor qui nostrud labore proident fugiat excepteur anim elit ea adipisicing voluptate aliquip amet laborum culpa reprehe'
 }
+
+export const blogCardData = [
+  {
+    title: 'Blog title',
+    date: 'April 15, 2023',
+    description: 'Description about the product: quis nostrud exercitation ullamco about the product...'
+  },
+  {
+    title: 'See what a long blog title looks like here and why we need to space out the text.',
+    date: 'April 15, 2023',
+    description: 'Description about the product: quis nostrud exercitation ullamco about the product...'
+  },
+  {
+    title: 'See what a long blog title looks like here and why we need to space out the text.',
+    date: 'April 15, 2023',
+    description: 'Description about the product: quis nostrud exercitation ullamco about the product...'
+  }
+]

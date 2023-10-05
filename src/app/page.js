@@ -12,6 +12,7 @@ import {
   featureImageContent,
   featureImage1Content
 } from '@/shared/Constants/constants'
+import BlogSliderPage from './BlogSlider/page';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <TextFeatureTwoPage />
       <CtaOne />
       <FaqPage />
+      <BlogSliderPage />
       <FooterLayout />
     </>
   )
