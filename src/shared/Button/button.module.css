@@ -4,9 +4,13 @@
   justify-content: center;
   width: 250px;
   height: 52px;
+  padding: 0 20px;
   font-size: 18px;
-  color: #ffffffff; /* white */
-  background: #d221ffff;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ffffffff;
+  background-color: #d221ffff;
   border-radius: 26px;
+  border: none;
   margin-top: 14px;
 }

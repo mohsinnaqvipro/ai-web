@@ -21,7 +21,7 @@
 .leftLayout {
   display: flex;
   flex-direction: column;
-  max-width: 100vw;
+  max-width: 396px;
 }
 
 .h4White {
