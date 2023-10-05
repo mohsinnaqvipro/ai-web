@@ -4,12 +4,12 @@ import React from "react";
 import Button from "@/shared/Button";
 import styles from "./cta1.module.css";
 
-const CtaOne = () => {
+const CtaOne = ({ buttonText }) => {
   return (
     <>
       <div className={styles.mainLayout}>
         <h2>Be the first to try</h2>
-        <Button text="Book a demo" />
+        <Button text={buttonText || "Book a demo"} />
       </div>
     </>
   );

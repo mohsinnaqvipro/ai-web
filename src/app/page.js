@@ -1,3 +1,5 @@
+"use client";
+
 import FaqPage from './Faq/page'
 import HeroPage from './Hero/page'
 import NavbarPage from './Navbar/page'

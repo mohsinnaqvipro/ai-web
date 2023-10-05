@@ -80,4 +80,37 @@ export const blogCardData = [
     date: 'April 15, 2023',
     description: 'Description about the product: quis nostrud exercitation ullamco about the product...'
   }
+];
+
+export const blogCardData1 = [
+  {
+    title: 'Blog title',
+    date: 'April 15, 2023',
+    description: 'Description about the product: quis nostrud exercitation ullamco about the product...'
+  },
+  {
+    title: 'See what a long blog title looks like here and why we need to space out the text.',
+    date: 'April 15, 2023',
+    description: 'Description about the product: quis nostrud exercitation ullamco about the product...'
+  },
+  {
+    title: 'See what a long blog title looks like here and why we need to space out the text.',
+    date: 'April 15, 2023',
+    description: 'Description about the product: quis nostrud exercitation ullamco about the product...'
+  },
+  {
+    title: 'Blog title',
+    date: 'April 15, 2023',
+    description: 'Description about the product: quis nostrud exercitation ullamco about the product...'
+  },
+  {
+    title: 'See what a long blog title looks like here and why we need to space out the text.',
+    date: 'April 15, 2023',
+    description: 'Description about the product: quis nostrud exercitation ullamco about the product...'
+  },
+  {
+    title: 'See what a long blog title looks like here and why we need to space out the text.',
+    date: 'April 15, 2023',
+    description: 'Description about the product: quis nostrud exercitation ullamco about the product...'
+  }
 ]

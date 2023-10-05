@@ -1,0 +1,8 @@
+.mainLayout {
+  display: flex;
+  justify-content: center;
+  gap: 109px;
+  align-items: center;
+  background-color: #eee;
+  padding: 138px 0 122px 0;
+}

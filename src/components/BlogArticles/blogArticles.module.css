@@ -1,0 +1,7 @@
+.blogContainer {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px 140px 100px 340px;
+}
