@@ -1,0 +1,7 @@
+.mainLayout {
+  display: flex;
+  justify-content: wrap;
+  align-items: center;
+  gap: 50px;
+  margin: 96px 0 78px 0;
+}
