@@ -8,14 +8,21 @@
   margin: 0 0 63px 0;
   padding: 50px;
 }
+
 .featureContainer p {
   color: aliceblue;
   margin: 0px;
 }
+
 .featureContainer h2 {
   color: aliceblue;
   margin: 10px 0 10px 0;
 }
+
 .featureContainer button {
   margin-bottom: 50px;
+}
+
+.svgLogo {
+  max-width: 114px;
 }

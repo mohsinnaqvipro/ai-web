@@ -65,3 +65,7 @@
   line-height: 26px;
   color: #000000;
 }
+
+.image {
+  max-width: 61px;
+}

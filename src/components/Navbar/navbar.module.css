@@ -62,3 +62,65 @@
   display: flex;
   gap: 10px;
 }
+
+/* @media screen and (min-device-width: 480px) and (max-device-width: 768px) {
+  .mainLayout {
+  margin: 20px 50px 0 50px;
+} */
+
+.svgLogo {
+  height: 48px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  color: #565e6cff;
+  gap: 10px;
+}
+
+.buttonTab {
+  border: none;
+  color: #565e6cff;
+  background: none;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.buttonTab:hover {
+  font-weight: 700;
+  color: #d221ffff;
+}
+
+.buttonSignin {
+  border: none;
+  color: #171a1fff;
+  background: #00000000;
+  font-size: 14px;
+  font-weight: 400;
+  height: 36px;
+  cursor: pointer;
+}
+
+.buttonTryfree {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffffff;
+  background: #171a1fff;
+  border: none;
+  border-radius: 18px;
+  height: 36px;
+  padding: 0 12px;
+  cursor: pointer;
+}
+
+.buttonTryfree:hover {
+  color: #ffffffff;
+  background: #262a33ff;
+}
+
+.buttonsLayout {
+  display: flex;
+  gap: 10px;
+}

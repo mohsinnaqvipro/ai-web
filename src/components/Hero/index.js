@@ -1,10 +1,10 @@
-"use client";
+'use client'
 
-import React from "react";
-import Image from "next/image";
-import Button from "@/shared/Button";
-import Video from "@/assets/images/video.png";
-import styles from "./hero.module.css";
+import React from 'react'
+import Image from 'next/image'
+import Button from '@/shared/Button'
+import Video from '@/assets/images/video.png'
+import styles from './hero.module.css'
 
 const Hero = () => {
   return (
@@ -14,11 +14,11 @@ const Hero = () => {
         <p
           className={styles.p}
         >{`Irure dolore exercitation aliquip deserunt aute adipisicing ut. Enim exercitation anim est et consequat pr`}</p>
-        <Button text="Get started" />
+        <Button text='Get started' />
       </div>
-      <Image className={styles.video} src={Video} />
+      <Image className={styles.image} src={Video} />
     </>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

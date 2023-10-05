@@ -22,8 +22,9 @@
   margin-top: 12px;
 }
 
-.video {
+.image {
   max-width: 85%;
+  /* width: auto; */
   display: block;
   margin: 0 auto;
   padding-bottom: 72px;

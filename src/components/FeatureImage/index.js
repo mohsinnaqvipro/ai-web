@@ -18,9 +18,10 @@ const FeatureImage = ({ flag, content }) => {
           </h2>
           <p className={flag ? styles.pWhite : styles.pBlack}>{msg}</p>
         </div>
-        <div>
-          <Image src={flag ? featureImage : featureImage1} />
-        </div>
+        <Image
+          className={styles.image}
+          src={flag ? featureImage : featureImage1}
+        />
       </div>
     </div>
   )

@@ -33,3 +33,9 @@
   text-decoration: none;
   color: #fff;
 }
+
+@media only screen and (max-width: 1024px) {
+  .footerMenu {
+    padding: 0;
+  }
+}
