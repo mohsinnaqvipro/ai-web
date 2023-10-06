@@ -1,16 +1,13 @@
 .cardLayout {
   max-width: 358px;
   height: 443px;
-  background: #FFFFFFFF;
+  background: #ffffffff;
   border-radius: 20px;
   box-shadow: 0px 4px 9px #171a1f, 0px 0px 2px #171a1f;
-  /* shadow-m */
   position: relative;
 }
 
 .blogImage {
-  width: 358px;
-  height: 207px;
   border-radius: 20px 20px 0 0;
 }
 
@@ -18,45 +15,34 @@
   max-width: auto;
   max-height: auto;
   padding: 13px 13px 0 13px;
-  /* Body */
   font-size: 25px;
   font-weight: 700;
   line-height: 28px;
-  color: #171A1FFF;
+  color: #171a1fff;
 }
 
 .cardLayout span {
-  padding: 13px 0 0 13px;
+  margin: 13px 0 0 13px;
   width: auto;
   height: auto;
-  /* Body */
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
-  color: #9095A0FF;
-  /* neutral  */
+  color: #9095a0ff;
 }
 
 .cardLayout p {
   padding-left: 13px;
   max-width: auto;
-  /* Body */
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
-  color: #171A1FFF;
+  color: #171a1fff;
   margin-right: 80px;
-  /* neutral- */
 }
 
 .tagContainer {
-  display: flex;
-  gap: 10%;
-  padding: 0 0 10px 10px;
-  align-items: center;
-  max-width: 85px;
-  max-height: auto;
-  margin: 0 0 0 13px;
+  bottom: 0;
   position: absolute;
-  bottom: 0
+  margin-bottom: 29px;
 }
