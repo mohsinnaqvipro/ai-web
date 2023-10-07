@@ -1,0 +1,55 @@
+.mainLayout {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 471px; */
+  padding: 70px;
+  /* height: 693px; */
+  /* text-align: center; */
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f; /* shadow-xs */
+}
+
+.mainLayout h1 {
+  font-size: 48px;
+  font-weight: 400;
+  /* line-height: 35px; */
+  margin: 12px auto;
+  text-align: center;
+}
+
+.mainLayout p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #171a1fff;
+  text-align: center;
+  margin: 0;
+}
+
+.lineSeparator {
+  border-bottom: 1px solid #bcc1caff;
+  height: 2px;
+  margin-top: 12px;
+}
+
+.mainLayout h4 {
+  text-align: center;
+  margin: 24px 0 24px 0;
+}
+
+.mainLayout ul {
+  margin: 0;
+  padding: 0;
+}
+
+.mainLayout li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.mainLayout Button {
+  justify-content: center;
+}

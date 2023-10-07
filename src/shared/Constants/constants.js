@@ -103,3 +103,20 @@ export const blogCardData = [
       'Description about the product: quis nostrud exercitation ullamco about the product...'
   }
 ]
+
+export const priceCardData = [
+  {
+    title: 'Starter',
+    Price: '$49',
+    month: 'number/month',
+    listTitle: "What's included",
+    options: ['Option 1', 'Option 2', 'Option 3', 'Option 4']
+  },
+  {
+    title: 'Starter',
+    Price: '$49',
+    month: 'number/month',
+    listTitle: "What's included",
+    options: ['Option 1', 'Option 2', 'Option 3', 'Option 4']
+  }
+]

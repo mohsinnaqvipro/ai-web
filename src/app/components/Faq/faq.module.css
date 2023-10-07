@@ -1,0 +1,42 @@
+.mainLayout {
+  background: #171a1fff;
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.mainLayout h2 {
+  color: #ffffffff;
+  padding: 67px 0 67px 0;
+  text-align: center;
+}
+
+.mainLayout p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffffff;
+}
+
+.lineSeparator {
+  border-bottom: 1px solid #bcc1caff;
+  height: 2px;
+  margin: 20px 0 20px 0;
+}
+
+.container {
+  margin: 0 100px 0 100px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mainLayout h2 {
+    text-align: center;
+    padding: 45px 22px;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
