@@ -7,8 +7,6 @@
 }
 
 .mainLayout h2 {
-  display: flex;
-  justify-content: center;
   color: #ffffffff;
   padding: 67px 0 67px 0;
 }
@@ -28,4 +26,16 @@
 
 .container {
   margin: 0 100px 0 100px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mainLayout h2 {
+    text-align: center;
+    padding: 45px 22px;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
 }

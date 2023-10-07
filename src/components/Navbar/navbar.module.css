@@ -37,7 +37,6 @@
   background: #00000000;
   font-size: 14px;
   font-weight: 400;
-  height: 36px;
   cursor: pointer;
 }
 
@@ -48,8 +47,7 @@
   background: #171a1fff;
   border: none;
   border-radius: 18px;
-  height: 36px;
-  padding: 0 12px;
+  padding: 5px 9px;
   cursor: pointer;
 }
 
@@ -93,34 +91,39 @@
   color: #d221ffff;
 }
 
-.buttonSignin {
-  border: none;
-  color: #171a1fff;
-  background: #00000000;
-  font-size: 14px;
-  font-weight: 400;
-  height: 36px;
-  cursor: pointer;
-}
-
-.buttonTryfree {
-  font-size: 14px;
-  font-weight: 400;
-  color: #ffffffff;
-  background: #171a1fff;
-  border: none;
-  border-radius: 18px;
-  height: 36px;
-  padding: 0 12px;
-  cursor: pointer;
-}
-
-.buttonTryfree:hover {
-  color: #ffffffff;
-  background: #262a33ff;
-}
-
 .buttonsLayout {
   display: flex;
   gap: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .mainLayout {
+    margin: 20px 18px 20px;
+  }
+
+  .svgLogo {
+    height: 30px;
+  }
+
+  .buttonTab {
+    font-size: 12px;
+    padding: 3px 4px;
+  }
+
+  .menu {
+    gap: 2px;
+  }
+
+  .buttonsLayout {
+    gap: 2px;
+  }
+
+  .buttonSignin {
+    font-size: 12px;
+  }
+
+  .buttonTryfree {
+    padding: 4px 7px;
+    font-size: 12px;
+  }
 }

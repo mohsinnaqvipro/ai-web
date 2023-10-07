@@ -11,7 +11,7 @@ const FeatureImageTwo = () => {
       <p>Templates</p>
       <h2>Build your tale</h2>
       <Button text='Get Started' />
-      <Image className={styles.svgLogo} width={1000} src={featureImage} />
+      <Image className={styles.svgLogo} src={featureImage} />
     </div>
   )
 }

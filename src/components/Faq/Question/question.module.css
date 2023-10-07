@@ -13,3 +13,9 @@
   color: #ffffffff;
   font-size: 30px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .toggle {
+    justify-content: space-between;
+  }
+}

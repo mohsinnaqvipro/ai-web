@@ -24,5 +24,6 @@
 }
 
 .svgLogo {
-  max-width: 614px;
+  width: 100%;
+  height: auto;
 }

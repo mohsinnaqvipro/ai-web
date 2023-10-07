@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import { LeftOutlined, RightOutlined } from '@ant-design/icons'
+import { RightCircleOutlined, LeftCircleOutlined } from '@ant-design/icons'
 import Card from './Card'
 import { cardsData } from '@/shared/Constants/constants'
 import styles from './testimonials.module.css'
@@ -29,11 +29,14 @@ const Testimonials = () => {
       <div className={styles.slider}>
         <h2>Customer stories</h2>
         <div className={styles.icons}>
-          <LeftOutlined
+          <LeftCircleOutlined
             onClick={handlePrevious}
             className={styles.circleIcon}
           />
-          <RightOutlined onClick={handleNext} className={styles.circleIcon} />
+          <RightCircleOutlined
+            onClick={handleNext}
+            className={styles.circleIcon}
+          />
         </div>
       </div>
       <div className={styles.cardsLayout}>

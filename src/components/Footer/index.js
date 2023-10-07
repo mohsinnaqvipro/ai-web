@@ -16,17 +16,15 @@ const Footer = () => {
         <div className={styles.footerLogo}>
           <div className={styles.logo}>
             <Image
-              width={190}
-              height={106}
               className={styles.video}
               src={Logo}
             />
           </div>
           <div className={styles.social}>
-            <Image width={32} height={32} src={FaceBook} />
-            <Image width={32} height={32} src={Twitter} />
-            <Image width={32} height={32} src={LinkedIn} />
-            <Image width={32} height={32} src={Youtube} />
+            <Image src={FaceBook} />
+            <Image src={Twitter} />
+            <Image src={LinkedIn} />
+            <Image src={Youtube} />
           </div>
         </div>
         <div className={styles.footerMenu}>

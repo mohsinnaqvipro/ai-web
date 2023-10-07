@@ -67,5 +67,25 @@
 }
 
 .image {
-  max-width: 614px;
+  width: 50%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .featureImageLayout,
+  .featureImageLayout1 {
+    padding: 27px;
+  }
+
+  .innerLayout {
+    flex-direction: column-reverse;
+  }
 }
