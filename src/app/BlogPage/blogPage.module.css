@@ -1,0 +1,11 @@
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 100px;
+  max-width: 1600px;
+}
+
+.image {
+  margin: 50px 0px;
+}

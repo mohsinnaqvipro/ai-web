@@ -1,5 +1,4 @@
 .mainLayout {
-  /* background: #f8f9faff; */
   margin: 68px 100px 68px 100px;
 }
 
@@ -33,4 +32,18 @@
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 72px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mainLayout {
+    margin: 45px 18px;
+  }
+
+  .circleIcon {
+    font-size: 30px;
+  }
+
+  .cardsLayout {
+    margin-top: 36px;
+  }
 }

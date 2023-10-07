@@ -8,7 +8,7 @@ import Link from 'next/link'
 import { Divider } from 'antd'
 import { LeftOutlined, RightOutlined } from '@ant-design/icons'
 
-const BlogSlider = () => {
+const BlogSlider = ({ title, description }) => {
   const [startIndex, setStartIndex] = useState(0)
 
   const cardsToShow = blogCardData.slice(startIndex, startIndex + 3)
@@ -29,10 +29,8 @@ const BlogSlider = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textWrapper}>
-        <h2>Blog</h2>
-        <p>
-          Laborum dolore aute et incididunt commodo consectetur eiusmod magna.
-        </p>
+        <h2>{title}</h2>
+        <p>{description}</p>
         <Link href=''>View more</Link>
         <div className={styles.iconsWrapper}>
           <Divider className={styles.divider} />

@@ -13,7 +13,7 @@ const Navbar = () => {
       <Image className={styles.svgLogo} src={Logo} />
       <div className={styles.menu}>
         <button
-          onClick={() => router.push('/')}
+          onClick={() => router.push('/HowItWorks')}
           className={styles.buttonTab}
         >{`How it Works`}</button>
         <button className={styles.buttonTab}>{`Book a Demo`}</button>

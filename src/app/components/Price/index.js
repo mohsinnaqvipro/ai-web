@@ -1,18 +1,11 @@
 import { priceCardData } from '@/shared/Constants/constants'
 import React from 'react'
 import PriceCard from './PriceCard'
+import styles from './price.module.css'
 
 const Price = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        gap: '100px',
-        marginBottom: '100px'
-      }}
-    >
+    <div className={styles.mainLayout} >
       {priceCardData.map((item, index) => (
         <PriceCard item={item} />
       ))}

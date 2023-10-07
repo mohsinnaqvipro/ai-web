@@ -1,7 +1,45 @@
 .blogContainer {
+  max-width: 1600px;
   display: flex;
   gap: 50px;
   flex-wrap: wrap;
   align-items: center;
-  margin: 0px 100px 50px 100px;
+  margin: 0 auto;
+  padding: 0px 100px 50px 100px;
+  justify-content: center;
+}
+
+.paginatin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.blogCard {
+  cursor: pointer;
+}
+
+.paginatin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.blogCard {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1350px) {
+  .blogContainer {
+    gap: 27px;
+    padding: 0px 50px 50px 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .blogContainer {
+    padding: 0 36px 45px;
+  }
 }

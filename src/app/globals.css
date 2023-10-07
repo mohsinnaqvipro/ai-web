@@ -1,15 +1,8 @@
 body {
-  /* margin-left: 100px;
-  margin-right: 100px; */
-  margin: 0;
-}
-
-button {
-  font-family: Poppins;
+  font-family: Catamaran;
 }
 
 h1 {
-  font-family: Catamaran;
   font-size: 56px;
   font-weight: 700;
   margin: 0px;
@@ -17,32 +10,29 @@ h1 {
 }
 
 h2 {
-  font-family: Catamaran;
   font-size: 48px;
   margin: 0px;
   font-weight: 700;
 }
 
 h3 {
-  font-family: Catamaran;
   font-size: 40px;
   margin: 0px;
   font-weight: 700;
 }
 
 h4 {
-  font-family: Poppins;
   font-size: 20px;
   margin: 0px;
   font-weight: 700;
   line-height: 30px;
 }
 
-p {
-  font-family: Poppins;
-}
-
 @media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 40px;
+  }
+
   h2 {
     font-size: 30px;
   }
