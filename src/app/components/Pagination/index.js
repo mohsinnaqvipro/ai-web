@@ -1,21 +1,21 @@
-'use client'
+"use client";
 
-import React, { useState } from 'react'
-import { Pagination } from 'antd'
+import React, { useState } from "react";
+import { Pagination } from "antd";
 
 const PaginationComponent = ({ blogCardData }) => {
-  const itemsPerPage = 6
-  const totalItems = 50
-  const [currentPage, setCurrentPage] = useState(1)
+  const itemsPerPage = 6;
+  const totalItems = 50;
+  const [currentPage, setCurrentPage] = useState(1);
 
-  const startIndex = (currentPage - 1) * itemsPerPage
-  const endIndex = Math.min(startIndex + itemsPerPage, totalItems)
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
 
-  const itemsToDisplay = blogCardData.slice(startIndex, endIndex)
+  const itemsToDisplay = blogCardData.slice(startIndex, endIndex);
 
-  const handlePageChange = page => {
-    setCurrentPage(page)
-  }
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
 
   return (
     <div>
@@ -29,7 +29,7 @@ const PaginationComponent = ({ blogCardData }) => {
         pageSize={itemsPerPage}
       />
     </div>
-  )
-}
+  );
+};
 
-export default PaginationComponent
+export default PaginationComponent;

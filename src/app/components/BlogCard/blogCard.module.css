@@ -1,49 +1,49 @@
 .cardLayout {
   max-width: 358px;
   height: 443px;
-  background: #ffffffff;
-  border-radius: 20px;
+  background: var(--background-color-white);
+  border-radius: var(--border-radius-20);
   box-shadow: 0px 4px 9px #171a1f, 0px 0px 2px #171a1f;
   position: relative;
 }
 
 .blogImage {
-  border-radius: 20px 20px 0 0;
+  border-radius: var(--border-radius-20-20);
 }
 
 .cardLayout h3 {
   max-width: auto;
   max-height: auto;
-  margin: 13px 13px 0 13px;
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 28px;
-  color: #171a1fff;
+  margin: var(--margin-13-13);
+  font-size: var(--font-size-25);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-28);
+  color: var(--font-color-171a1ff);
 }
 
 .span {
-  margin: 13px 0 0 13px;
+  margin: var(--margin-13-0);
   width: auto;
   height: auto;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 20px;
-  color: #9095a0ff;
+  font-size: var(--font-size-12);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-20);
+  color: var(--font-color-9095a0ff);
 }
 
 .cardLayout p {
   /* margin-left: 13px; */
-  margin: 5px 80px 0 13px;
+  margin: var(--margin-5-80);
   max-width: auto;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 20px;
-  color: #171a1fff;
+  font-size: var(--font-size-12);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-20);
+  color: var(--font-color-171a1ff);
   /* margin-right: 80px; */
 }
 
 .tagContainer {
   bottom: 0;
   position: absolute;
-  margin: 0 29px 13px 13px;
+  margin: var(--margin-0-29);
 }

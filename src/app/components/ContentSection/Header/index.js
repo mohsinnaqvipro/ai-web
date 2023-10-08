@@ -1,7 +1,9 @@
-import Image from 'next/image'
-import blogPageImage from '@/assets/images/blogPageImage.png'
-import styles from './header.module.css'
-import React from 'react'
+"use client";
+
+import Image from "next/image";
+import blogPageImage from "@/assets/images/blogPageImage.png";
+import styles from "./header.module.css";
+import React from "react";
 
 const Header = () => {
   return (
@@ -12,9 +14,9 @@ const Header = () => {
           <p>{`April 15, 2023`}</p>
         </div>
       </div>
-      <Image className={styles.image} src={blogPageImage} alt='' />
+      <Image className={styles.image} src={blogPageImage} alt="" />
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

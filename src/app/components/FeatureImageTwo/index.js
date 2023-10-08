@@ -1,19 +1,21 @@
-import React from 'react'
+"use client";
 
-import Button from '@/shared/Button'
-import styles from './featureImageTwo.module.css'
-import Image from 'next/image'
-import featureImage from '@/assets/images/FeatureImage.jpg'
+import React from "react";
+
+import Button from "@/shared/Button";
+import styles from "./featureImageTwo.module.css";
+import Image from "next/image";
+import featureImage from "@/assets/images/FeatureImage.jpg";
 
 const FeatureImageTwo = () => {
   return (
     <div className={styles.featureContainer}>
       <p>Templates</p>
       <h2>Build your tale</h2>
-      <Button text='Get Started' />
-      <Image className={styles.svgLogo} src={featureImage} />
+      <Button text="Get Started" />
+      <Image className={styles.svgLogo} src={featureImage} alt="" />
     </div>
-  )
-}
+  );
+};
 
-export default FeatureImageTwo
+export default FeatureImageTwo;

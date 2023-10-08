@@ -10,17 +10,17 @@
   background-position: center center;
   height: 320px;
   padding: var(--hero-mainLayout-padding);
-  margin: 0 auto;
+  margin: var(--margin-0-auto);
 }
 
 .mainLayout h1 {
-  margin: 70px 0 0 0;
+  margin: var(--margin-70-0);
 }
 
 .mainLayout p {
-  font-size: 14px;
-  font-weight: 400;
-  color: #9095a0ff;
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-400);
+  color: var(--font-color-9095a0ff);
   margin-top: 12px;
 }
 
@@ -30,7 +30,7 @@
   }
 
   .h1 {
-    margin: 36px 0 0 0;
-    font-size: 36px;
+    margin: var(--margin-36-0);
+    font-size: var(--font-size-36);
   }
 }

@@ -1,7 +1,7 @@
 .Header {
   display: flex;
   flex-direction: column;
-  margin: 60px 100px 0 100px;
+  margin: var(--margin-60-100);
   max-width: var(--max-width);
   text-align: center;
   align-items: center;
@@ -13,13 +13,9 @@
   flex-direction: column;
 }
 
-/* .image {
-  margin: 50px 0px;
-} */
-
 .image {
   max-width: 85%;
   display: block;
-  margin: 0 auto;
+  margin: var(--margin-0-auto);
   height: auto;
 }

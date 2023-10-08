@@ -1,29 +1,29 @@
-'use client'
+"use client";
 
-import React, { useState } from 'react'
-import { RightCircleOutlined, LeftCircleOutlined } from '@ant-design/icons'
-import Card from './Card'
-import { cardsData } from '@/shared/Constants/constants'
-import styles from './testimonials.module.css'
+import React, { useState } from "react";
+import { RightCircleOutlined, LeftCircleOutlined } from "@ant-design/icons";
+import Card from "./Card";
+import { cardsData } from "@/shared/Constants/constants";
+import styles from "./testimonials.module.css";
 
 const Testimonials = () => {
-  const [startIndex, setStartIndex] = useState(0)
+  const [startIndex, setStartIndex] = useState(0);
 
-  const cardsToShow = cardsData.slice(startIndex, startIndex + 3)
-  const isNextDisabled = startIndex + 3 >= cardsData.length
-  const isPreviousDisabled = startIndex === 0
+  const cardsToShow = cardsData.slice(startIndex, startIndex + 3);
+  const isNextDisabled = startIndex + 3 >= cardsData.length;
+  const isPreviousDisabled = startIndex === 0;
 
   const handleNext = () => {
     if (!isNextDisabled) {
-      setStartIndex(prevIndex => prevIndex + 1)
+      setStartIndex((prevIndex) => prevIndex + 1);
     }
-  }
+  };
 
   const handlePrevious = () => {
     if (!isPreviousDisabled) {
-      setStartIndex(prevIndex => prevIndex - 1)
+      setStartIndex((prevIndex) => prevIndex - 1);
     }
-  }
+  };
   return (
     <div className={styles.mainLayout}>
       <div className={styles.slider}>
@@ -51,7 +51,7 @@ const Testimonials = () => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Testimonials
+export default Testimonials;

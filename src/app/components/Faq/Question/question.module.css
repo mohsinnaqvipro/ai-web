@@ -5,13 +5,13 @@
 }
 
 .toggle h3 {
-  color: #ffffffff;
-  margin: 10px 0 10px 0;
+  color: var(--font-color-white);
+  margin: var(--margin-10-0);
 }
 
 .upCircle {
-  color: #ffffffff;
-  font-size: 30px;
+  color: var(--font-color-white);
+  font-size: var(--font-size-30);
 }
 
 @media only screen and (max-width: 1024px) {

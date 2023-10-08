@@ -1,32 +1,32 @@
 .mainLayout {
-  background: #171a1fff;
-  border-radius: 4px;
+  background: var(--background-color-171a1fff);
+  border-radius: var(--border-radius-4);
   width: 100%;
   height: auto;
   padding-bottom: var(--faq-mainLayout-Padding);
 }
 
 .mainLayout h2 {
-  color: #ffffffff;
+  color: var(--font-color-white);
   padding: var(--faq-h2-padding);
   text-align: center;
 }
 
 .mainLayout p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  color: #ffffffff;
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-26);
+  color: var(--font-color-white);
 }
 
 .lineSeparator {
   border-bottom: 1px solid #bcc1caff;
   height: 2px;
-  margin: 20px 0 20px 0;
+  margin: var(--margin-20-0);
 }
 
 .container {
-  margin: 0 100px 0 100px;
+  margin: var(--margin-0-100);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -37,6 +37,6 @@
 
   .container {
     width: 80%;
-    margin: 0 auto;
+    margin: var(--margin-0-auto);
   }
 }

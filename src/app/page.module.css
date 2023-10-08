@@ -11,7 +11,7 @@
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
-  font-size: 0.85rem;
+  font-size: var(--font-size-085);
   max-width: var(--max-width);
   width: var(--width-100-percent);
   z-index: 2;
@@ -27,7 +27,7 @@
 
 .description p {
   position: relative;
-  margin: 0;
+  margin: var(--margin-0);
   padding: 1rem;
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
@@ -35,7 +35,7 @@
 }
 
 .code {
-  font-weight: 700;
+  font-weight: var(--font-weight-700);
   font-family: var(--font-mono);
 }
 
@@ -60,15 +60,15 @@
 }
 
 .card h2 {
-  font-weight: 600;
+  font-weight: var(--font-weight-600);
   margin-bottom: 0.7rem;
 }
 
 .card p {
-  margin: 0;
+  margin: var(--margin-0);
   opacity: 0.6;
-  font-size: 0.9rem;
-  line-height: 1.5;
+  font-size: var(--font-size-09);
+  line-height: var(--line-height-15);
   max-width: 30ch;
 }
 
@@ -82,7 +82,7 @@
 
 .center::before {
   background: var(--secondary-glow);
-  border-radius: 50%;
+  border-radius: var(--border-radius-50);
   width: 480px;
   height: 360px;
   margin-left: -400px;
@@ -97,7 +97,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -157,7 +157,7 @@
   }
 
   .description {
-    font-size: 0.8rem;
+    font-size: var(--font-size-08);
   }
 
   .description a {
@@ -176,8 +176,8 @@
     align-items: center;
     inset: 0 0 auto;
     padding: 2rem 1rem 1.4rem;
-    border-radius: 0;
-    border: none;
+    border-radius: var(--border-radius-0);
+    border: var(--border-none);
     border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
     background: linear-gradient(
       to bottom,

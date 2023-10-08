@@ -3,12 +3,12 @@
   flex-direction: column;
   max-width: 310px;
   height: auto;
-  background: #1d2128ff;
-  border-radius: 10px;
+  background: var(--background-color-1d2128ff);
+  border-radius: var(--border-radius-10);
   padding: var(--cardModule-mainLayout-padding);
-  font-size: 16px;
-  font-weight: 400;
-  color: #ffffffff;
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-400);
+  color: var(--font-color-white);
 }
 
 .cardFooter {
@@ -20,10 +20,10 @@
 .image {
   max-width: 77px;
   max-width: 77px;
-  background: #ffbdd7ff;
+  background: var(--background-color-ffbdd7ff);
   opacity: 1;
   overflow: hidden;
-  border-radius: 39px;
+  border-radius: var(--border-radius-39);
 }
 
 .description {
@@ -33,14 +33,14 @@
 }
 
 .name {
-  font-size: 16px;
-  font-weight: 600;
-  color: #ffffffff;
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-600);
+  color: var(--font-color-white);
 }
 
 .companyName {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  color: #bcc1caff;
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-26);
+  color: var(--font-color-bcc1caff);
 }

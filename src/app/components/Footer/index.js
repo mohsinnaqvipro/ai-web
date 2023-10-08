@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 import Image from "next/image";
@@ -15,16 +16,13 @@ const Footer = () => {
       <div className={styles.mainLayout}>
         <div className={styles.footerLogo}>
           <div className={styles.logo}>
-            <Image
-              className={styles.video}
-              src={Logo}
-            />
+            <Image className={styles.video} src={Logo} alt="" />
           </div>
           <div className={styles.social}>
-            <Image src={FaceBook} />
-            <Image src={Twitter} />
-            <Image src={LinkedIn} />
-            <Image src={Youtube} />
+            <Image src={FaceBook} alt="" />
+            <Image src={Twitter} alt="" />
+            <Image src={LinkedIn} alt="" />
+            <Image src={Youtube} alt="" />
           </div>
         </div>
         <div className={styles.footerMenu}>

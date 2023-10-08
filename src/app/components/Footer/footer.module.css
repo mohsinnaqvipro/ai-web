@@ -1,9 +1,9 @@
 .mainLayout {
-  background-color: #171a1fff;
+  background-color: var(--background-color-171a1ff);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: #fff;
+  color: var(--font-color-white);
 }
 
 .video {
@@ -36,7 +36,7 @@
 
 .footerMenu a {
   text-decoration: none;
-  color: #fff;
+  color: var(--font-color-white);
 }
 
 @media only screen and (max-width: 1024px) {

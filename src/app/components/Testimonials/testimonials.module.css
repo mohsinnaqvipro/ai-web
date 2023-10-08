@@ -1,5 +1,5 @@
 .mainLayout {
-  margin: 68px 100px 68px 100px;
+  margin: var(--margin-68-100);
 }
 
 .slider {
@@ -9,17 +9,17 @@
 }
 
 .slider h2 {
-  color: #171a1fff;
+  color: var(--font-color-171a1ff);
 }
 
 .circleIcon {
-  font-size: 52px;
-  color: #9095a0ff;
+  font-size: var(--font-size-52);
+  color: var(--font-color-9095a0ff);
   cursor: pointer;
 }
 
 .circleIcon:hover {
-  color: #d221ffff;
+  color: var(--font-color-d221ffff);
 }
 
 .icons {
@@ -36,11 +36,11 @@
 
 @media only screen and (max-width: 1024px) {
   .mainLayout {
-    margin: 45px 18px;
+    margin: var(--margin-45-18);
   }
 
   .circleIcon {
-    font-size: 30px;
+    font-size: var(--font-size-30);
   }
 
   .cardsLayout {

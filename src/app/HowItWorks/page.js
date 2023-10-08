@@ -1,18 +1,19 @@
-import Faq from '@/app/components/Faq'
-import Hero from '@/app/components/Hero'
-import Navbar from '@/app/components/Navbar'
-import Testimonials from '@/app/components/Testimonials'
-import Footer from '@/app/components/Footer'
-import TextFeatureOne from '@/app/components/TextFeatureOne'
-import TextFeatureTwo from '@/app/components/TextFeatureTwo'
-import FeatureImageTwo from '@/app/components/FeatureImageTwo'
-import CtaOne from '@/app/components/CtaOne'
-import FeatureImage from '@/app/components/FeatureImage'
-import BlogSlider from '@/app/components/BlogSlider'
+"use client";
+import Faq from "@/app/components/Faq";
+import Hero from "@/app/components/Hero";
+import Navbar from "@/app/components/Navbar";
+import Testimonials from "@/app/components/Testimonials";
+import Footer from "@/app/components/Footer";
+import TextFeatureOne from "@/app/components/TextFeatureOne";
+import TextFeatureTwo from "@/app/components/TextFeatureTwo";
+import FeatureImageTwo from "@/app/components/FeatureImageTwo";
+import CtaOne from "@/app/components/CtaOne";
+import FeatureImage from "@/app/components/FeatureImage";
+import BlogSlider from "@/app/components/BlogSlider";
 import {
   featureImageContent,
-  featureImage1Content
-} from '@/shared/Constants/constants'
+  featureImage1Content,
+} from "@/shared/Constants/constants";
 
 const HowItWorks = () => {
   return (
@@ -33,7 +34,7 @@ const HowItWorks = () => {
       /> */}
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default HowItWorks
+export default HowItWorks;

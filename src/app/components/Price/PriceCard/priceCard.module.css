@@ -2,24 +2,24 @@
   display: flex;
   flex-direction: column;
   padding: var(--priceCard-mainLayout-padding);
-  background-color: #ffffff;
-  border-radius: 4px;
+  background-color: --background-color-white;
+  border-radius: var(--border-radius-4);
   box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
 }
 
 .mainLayout h1 {
-  font-size: 48px;
-  font-weight: 400;
-  margin: 12px auto;
+  font-size: var(--font-size-48);
+  font-weight: var(--font-weight-400);
+  margin: var(--margin-12-auto);
   text-align: center;
 }
 
 .mainLayout p {
-  font-size: 14px;
-  font-weight: 400;
-  color: #171a1fff;
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-400);
+  color: var(--font-color-171a1ff);
   text-align: center;
-  margin: 0;
+  margin: var(--margin-0);
 }
 
 .lineSeparator {
@@ -30,11 +30,11 @@
 
 .mainLayout h4 {
   text-align: center;
-  margin: 24px 0 24px 0;
+  margin: var(--margin-24-0);
 }
 
 .mainLayout ul {
-  margin: 0;
+  margin: var(--margin-0);
   padding: var(--padding-0);
 }
 
@@ -56,6 +56,6 @@
   }
 
   .mainLayout h1 {
-    font-size: 36px;
+    font-size: var(--font-size-36);
   }
 }

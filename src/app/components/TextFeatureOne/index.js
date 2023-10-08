@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import styles from "./textFeatureOne.module.css";
 
@@ -12,6 +13,6 @@ const TextFeatureOne = () => {
       </p>
     </div>
   );
-}
+};
 
 export default TextFeatureOne;

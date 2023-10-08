@@ -1,20 +1,20 @@
 .mainLayout {
   display: flex;
-  background-color: #f8f9faff;
+  background-color: var(--background-color-fafafbff);
   justify-content: space-between;
   align-items: center;
   padding: var(--textFeatureTwo-mainLayout-padding);
 }
 
 .mainLayout h2 {
-  font-size: 48px;
-  font-weight: 700px;
+  font-size: var(--font-size-48);
+  font-weight: var(--font-weight-700) px;
 }
 
 .mainLayout p {
   max-width: 400px;
-  font-size: 20px;
-  font-weight: 400px;
+  font-size: var(--font-size-20);
+  font-weight: var(--font-weight-400);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -30,6 +30,6 @@
   }
 
   .mainLayout h2 {
-    font-size: 36px;
+    font-size: var(--font-size-36);
   }
 }

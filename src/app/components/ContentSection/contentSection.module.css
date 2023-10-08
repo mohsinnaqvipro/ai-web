@@ -7,8 +7,8 @@
 }
 
 .contentSection p {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 30px;
-  color: #171a1fff;
+  font-size: var(--font-size-20);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-30);
+  color: var(--font-color-171a1ff);
 }

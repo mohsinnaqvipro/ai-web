@@ -1,11 +1,13 @@
-import React from 'react'
-import Image from 'next/image'
-import featureImage from '@/assets/images/featureImage.png'
-import featureImage1 from '@/assets/images/featureImage1.png'
-import styles from './featureImage.module.css'
+"use client";
+
+import React from "react";
+import Image from "next/image";
+import featureImage from "@/assets/images/featureImage.png";
+import featureImage1 from "@/assets/images/featureImage1.png";
+import styles from "./featureImage.module.css";
 
 const FeatureImage = ({ flag, content }) => {
-  const { text, headingText, msg } = content
+  const { text, headingText, msg } = content;
   return (
     <div
       className={flag ? styles.featureImageLayout : styles.featureImageLayout1}
@@ -21,10 +23,11 @@ const FeatureImage = ({ flag, content }) => {
         <Image
           className={styles.image}
           src={flag ? featureImage : featureImage1}
+          alt=""
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default FeatureImage
+export default FeatureImage;

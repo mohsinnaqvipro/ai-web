@@ -1,5 +1,6 @@
-import HowItWorks from './HowItWorks/page'
+"use client";
+import HowItWorks from "./HowItWorks/page";
 
-export default function Home () {
-  return <HowItWorks />
+export default function Home() {
+  return <HowItWorks />;
 }
