@@ -5,45 +5,20 @@
 .slider {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .slider h2 {
   color: var(--font-color-171a1ff);
 }
 
-.circleIcon {
-  font-size: var(--font-size-52);
-  color: var(--font-color-9095a0ff);
-  cursor: pointer;
-}
-
-.circleIcon:hover {
-  color: var(--font-color-d221ffff);
-}
-
-.icons {
+.carousal {
   display: flex;
-  gap: var(--gap-16);
-}
-
-.cardsLayout {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 72px;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 1024px) {
   .mainLayout {
     margin: var(--margin-45-18);
-  }
-
-  .circleIcon {
-    font-size: var(--font-size-30);
-  }
-
-  .cardsLayout {
-    margin-top: 36px;
   }
 }
