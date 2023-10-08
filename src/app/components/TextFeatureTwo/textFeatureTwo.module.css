@@ -1,4 +1,6 @@
 .mainLayout {
+  max-width: 1600px;
+  margin: 0 auto;
   display: flex;
   background-color: var(--background-color-fafafbff);
   justify-content: space-between;

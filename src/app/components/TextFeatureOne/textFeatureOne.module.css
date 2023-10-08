@@ -16,3 +16,9 @@
   max-width: 600px;
   text-align: center;
 }
+
+@media only screen and (max-width: 767px) {
+  .mainLayout {
+    padding: 40px 27px;
+  }
+}

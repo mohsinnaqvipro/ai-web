@@ -9,6 +9,15 @@
   padding: var(--padding-50);
 }
 
+.innerLayout {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .featureContainer p {
   color: var(--font-color-aliceblue);
   margin: var(--margin-0);
@@ -26,4 +35,10 @@
 .svgLogo {
   width: var(--width-100-percent);
   height: var(--height-auto);
+}
+
+@media only screen and (max-width: 767px) {
+  .featureContainer {
+    padding: 45px 27px;
+  }
 }

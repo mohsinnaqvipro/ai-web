@@ -5,6 +5,10 @@
   height: auto;
   padding-bottom: var(--faq-mainLayout-Padding);
 }
+.innerLayout {
+  max-width: 1600px;
+  margin: 0 auto;
+}
 
 .mainLayout h2 {
   color: var(--font-color-white);
