@@ -1,11 +1,14 @@
 .container {
+  /* display: flex; */
   height: 617px;
   max-width: var(--max-width);
+  /* display: inline-flex; */
   background: #fafafbff;
-  border-radius: 4px;
-  display: flex;
-  gap: var(--gap-10);
-  overflow: hidden;
+  /* margin: 68px 100px; */
+  /* border-radius: 4px; */
+  /* display: flex;
+  gap: var(--gap-10); */
+  /* overflow: hidden; */
 }
 
 .textWrapper {
@@ -63,4 +66,10 @@
   gap: var(--gap-10);
   align-items: center;
   /* justify-content: center; */
+}
+
+.carousal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

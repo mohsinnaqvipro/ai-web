@@ -1,3 +1,5 @@
+'use client'
+
 import Faq from '@/app/components/Faq'
 import Hero from '@/app/components/Hero'
 import Navbar from '@/app/components/Navbar'
@@ -22,15 +24,15 @@ const HowItWorks = () => {
       <FeatureImage flag={true} content={featureImageContent} />
       <FeatureImage flag={false} content={featureImage1Content} />
       <FeatureImageTwo />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <TextFeatureOne />
       <TextFeatureTwo />
       <CtaOne />
       <Faq />
-      {/* <BlogSlider
+      <BlogSlider
         title='Blog'
         description='Laborum dolore aute et incididunt commodo consectetur eiusmod magna'
-      /> */}
+      />
       <Footer />
     </>
   )

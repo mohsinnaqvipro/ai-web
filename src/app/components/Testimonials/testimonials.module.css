@@ -1,49 +1,24 @@
 .mainLayout {
-  margin: 68px 100px 68px 100px;
+  margin: 68px 100px;
 }
 
 .slider {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .slider h2 {
   color: #171a1fff;
 }
 
-.circleIcon {
-  font-size: 52px;
-  color: #9095a0ff;
-  cursor: pointer;
-}
-
-.circleIcon:hover {
-  color: #d221ffff;
-}
-
-.icons {
+.carousal {
   display: flex;
-  gap: var(--gap-16);
-}
-
-.cardsLayout {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 72px;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 1024px) {
   .mainLayout {
     margin: 45px 18px;
-  }
-
-  .circleIcon {
-    font-size: 30px;
-  }
-
-  .cardsLayout {
-    margin-top: 36px;
   }
 }

@@ -79,10 +79,14 @@
 @media only screen and (max-width: 767px) {
   .featureImageLayout,
   .featureImageLayout1 {
-    padding: var(--padding-100);
+    padding: 100px;
   }
 
   .innerLayout {
     flex-direction: column-reverse;
+  }
+
+  .leftLayout h4 {
+    margin-top: 50px;
   }
 }

@@ -12,7 +12,10 @@
     "@ant-design/icons": "^5.2.6",
     "antd": "^5.9.4",
     "next": "latest",
+    "next-runtime": "^2.4.1",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-multi-carousel": "^2.8.4",
+    "react-responsive-carousel": "^3.2.23"
   }
 }
