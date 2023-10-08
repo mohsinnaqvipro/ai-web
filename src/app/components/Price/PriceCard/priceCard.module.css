@@ -1,7 +1,7 @@
 .mainLayout {
   display: flex;
   flex-direction: column;
-  padding: 70px;
+  padding: var(--priceCard-mainLayout-padding);
   background-color: #ffffff;
   border-radius: 4px;
   box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
@@ -35,12 +35,12 @@
 
 .mainLayout ul {
   margin: 0;
-  padding: 0;
+  padding: var(--padding-0);
 }
 
 .mainLayout li {
   display: flex;
-  gap: 10px;
+  gap: var(--gap-10);
   align-items: center;
   list-style: none;
   margin-bottom: 30px;
@@ -52,7 +52,7 @@
 
 @media only screen and (max-width: 1024px) {
   .mainLayout {
-    padding: 22px;
+    padding: var(--priceCard-mainLayout-media-padding);
   }
 
   .mainLayout h1 {

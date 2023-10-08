@@ -16,7 +16,7 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding: 50px;
+  padding: var(--padding-50);
 }
 
 .social img {
@@ -25,13 +25,13 @@
 }
 
 .footerMenu {
-  padding: 50px;
+  padding: var(--padding-50);
   margin-right: 50px;
 }
 
 .footerMenu li {
   list-style: none;
-  padding-top: 8px;
+  padding-top: var(--padding-top-8);
 }
 
 .footerMenu a {
@@ -41,12 +41,12 @@
 
 @media only screen and (max-width: 1024px) {
   .footerMenu {
-    padding: 18px 15px;
-    margin-right: 0;
+    padding: var(--footerMenu-media-padding);
+    margin-right: var(--margin-right-0);
   }
 
   .footerLogo {
-    padding: 18px 15px;
+    padding: var(--footerMenu-media-padding);
   }
 }
 
@@ -58,17 +58,17 @@
   .footerLogo {
     width: 50%;
     align-items: start;
-    padding: 18px 0;
+    padding: var(--footerLogo-padding);
   }
 
   .footerMenu {
     width: 50%;
-    padding: 18px 0;
+    padding: var(--footerLogo-padding);
   }
 
   .mainLayout {
     flex-wrap: wrap;
-    padding: 9px 27px;
+    padding: var(--footer-mainLayout-padding);
   }
 
   .video {

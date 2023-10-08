@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 50px 0 80px 0;
+  padding: var(--textFeatureOne-mainLayout-padding);
   color: #fff;
 }
 

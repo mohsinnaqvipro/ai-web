@@ -1,11 +1,11 @@
 .blogContainer {
-  max-width: 1600px;
+  max-width: var(--max-width);
   display: flex;
-  gap: 50px;
+  gap: var(--gap-50);
   flex-wrap: wrap;
   align-items: center;
   margin: 0 auto;
-  padding: 0px 100px 50px 100px;
+  padding: var(--blogContainer-padding);
   justify-content: center;
 }
 
@@ -33,13 +33,13 @@
 
 @media only screen and (max-width: 1350px) {
   .blogContainer {
-    gap: 27px;
-    padding: 0px 50px 50px 50px;
+    gap: var(--gap-27);
+    padding: var(--blogContainer-1350-padding);
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .blogContainer {
-    padding: 0 36px 45px;
+    padding: var(--blogContainer-1024-padding);
   }
 }

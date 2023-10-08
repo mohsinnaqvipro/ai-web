@@ -14,7 +14,7 @@
   display: flex;
   align-items: center;
   color: #565e6cff;
-  gap: 10px;
+  gap: var(--gap-10);
 }
 
 .buttonTab {
@@ -57,7 +57,7 @@
   background: #171a1fff;
   border: none;
   border-radius: 18px;
-  padding: 5px 9px;
+  padding: var(--button-tryFree-padding);
   cursor: pointer;
 }
 
@@ -68,7 +68,7 @@
 
 .buttonsLayout {
   display: flex;
-  gap: 10px;
+  gap: var(--gap-10);
 }
 
 /* @media screen and (min-device-width: 480px) and (max-device-width: 768px) {
@@ -84,7 +84,7 @@
   display: flex;
   align-items: center;
   color: #565e6cff;
-  gap: 10px;
+  gap: var(--gap-10);
 }
 
 .buttonTab {
@@ -103,7 +103,7 @@
 
 .buttonsLayout {
   display: flex;
-  gap: 10px;
+  gap: var(--gap-10);
 }
 
 @media only screen and (max-width: 767px) {
@@ -117,15 +117,15 @@
 
   .buttonTab {
     font-size: 12px;
-    padding: 3px 4px;
+    padding: var(--buttonTab-media-padding);
   }
 
   .menu {
-    gap: 2px;
+    gap: var(--gap-2);
   }
 
   .buttonsLayout {
-    gap: 2px;
+    gap: var(--gap-2);
   }
 
   .buttonSignin {
@@ -133,7 +133,7 @@
   }
 
   .buttonTryfree {
-    padding: 4px 7px;
+    padding: var(--button-tryFree-media-padding);
     font-size: 12px;
   }
 }

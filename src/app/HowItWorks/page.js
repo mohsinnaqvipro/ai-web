@@ -22,15 +22,15 @@ const HowItWorks = () => {
       <FeatureImage flag={true} content={featureImageContent} />
       <FeatureImage flag={false} content={featureImage1Content} />
       <FeatureImageTwo />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <TextFeatureOne />
       <TextFeatureTwo />
       <CtaOne />
       <Faq />
-      <BlogSlider
+      {/* <BlogSlider
         title='Blog'
         description='Laborum dolore aute et incididunt commodo consectetur eiusmod magna'
-      />
+      /> */}
       <Footer />
     </>
   )

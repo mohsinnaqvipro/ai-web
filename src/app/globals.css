@@ -28,6 +28,53 @@ h4 {
   line-height: 30px;
 }
 
+:root {
+  --max-width: 1600px;
+  --width-100-percent: 100%;
+  --height-auto: auto;
+  --gap-50: 50px;
+  --gap-27: 27px;
+  --gap-10: 10px;
+  --gap-24: 24px;
+  --gap-20: 20px;
+  --gap-2: 2px;
+  --gap-100: 100px;
+  --gap-16: 16px;
+  --gap-42: 42px;
+  --blogContainer-padding: 0px 100px 50px 100px;
+  --blogContainer-1350-padding: 0px 50px 50px 50px;
+  --blogContainer-1024-padding: 0 36px 45px;
+  --blogSlider-icon-padding: 0px 16px;
+  --contentSection-padding: 30px 100px;
+  --faq-mainLayout-Padding: 20px;
+  --faq-h2-padding: 67px 0 67px 0;
+  --faq-h2-media-padding: 45px 22px;
+  --padding-100: 100px;
+  --padding-27: 27px;
+  --padding-50: 50px;
+  --padding-top-8: 8px;
+  --footerMenu-media-padding: 18px 15px;
+  --footerLogo-padding: 18px 0;
+  --footer-mainLayout-padding: 9px 27px;
+  --hero-mainLayout-padding: 0 100px 0 100px;
+  --hero-mainLayout-media-padding: 0 36px;
+  --padding-bottom-72: 72px;
+  --margin-right-0: 0px;
+  --button-tryFree-padding: 5px 9px;
+  --buttonTab-media-padding: 3px 4px;
+  --button-tryFree-media-padding: 4px 7px;
+  --price-mainLayout-padding: 0 50px;
+  --price-mainLayout-media-padding: 0 27px;
+  --priceCard-mainLayout-padding: 70px;
+  --padding-0: 0px;
+  --priceCard-mainLayout-media-padding: 22px;
+  --cardModule-mainLayout-padding: 25px 15px 25px 15px;
+  --textFeatureOne-mainLayout-padding: 50px 0 80px 0;
+  --textFeatureTwo-mainLayout-padding: 84px 197px 97px 197px;
+  --padding-45: 45px;
+  --cta-button-padding: 0 20px;
+}
+
 @media only screen and (max-width: 1024px) {
   h1 {
     font-size: 40px;

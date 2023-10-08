@@ -24,7 +24,7 @@
 
 .icons {
   display: flex;
-  gap: 16px;
+  gap: var(--gap-16);
 }
 
 .cardsLayout {

@@ -3,7 +3,7 @@
   background-color: #f8f9faff;
   justify-content: space-between;
   align-items: center;
-  padding: 84px 197px 97px 197px;
+  padding: var(--textFeatureTwo-mainLayout-padding);
 }
 
 .mainLayout h2 {
@@ -19,7 +19,7 @@
 
 @media only screen and (max-width: 1024px) {
   .mainLayout {
-    padding: 45px;
+    padding: var(--padding-45);
   }
 }
 

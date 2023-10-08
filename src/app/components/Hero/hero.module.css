@@ -1,5 +1,5 @@
 .mainLayout {
-  max-width: 1600px;
+  max-width: var(--max-width);
   display: flex;
   text-align: center;
   align-items: center;
@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   height: 320px;
-  padding: 0 100px 0 100px;
+  padding: var(--hero-mainLayout-padding);
   margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@
   /* width: auto; */
   display: block;
   margin: 0 auto;
-  padding-bottom: 72px;
+  padding-bottom: var(--padding-bottom-72);
   height: auto;
 }
 
