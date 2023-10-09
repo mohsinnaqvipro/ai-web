@@ -26,7 +26,7 @@ const Faq = () => {
       <div className={styles.innerLayout}>
         <h2>{`Frequently Asked Questions`}</h2>
         {faqData.map((faq, index) => (
-          <div className={styles.container}>
+          <div>
             <Question key={index} question={faq.question} answer={faq.answer} />
             <div className={styles.lineSeparator} />
           </div>

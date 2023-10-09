@@ -1,7 +1,6 @@
 .imageLayout {
   padding: var(--standard-padding);
   max-width: var(--max-width);
-  /* margin: 60px 100px 0 100px; */
 }
 .imageInnerLayout {
   display: flex;

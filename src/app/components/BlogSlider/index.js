@@ -1,45 +1,45 @@
-import React, { useState, useRef } from "react";
-import BlogCard from "../BlogCard";
-import styles from "./blogSlider.module.css";
-import { blogCardData } from "@/shared/Constants/constants";
-import Link from "next/link";
-import { Divider } from "antd";
-import { LeftOutlined, RightOutlined } from "@ant-design/icons";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import React, { useState, useRef } from 'react'
+import BlogCard from '../BlogCard'
+import styles from './blogSlider.module.css'
+import { blogCardData } from '@/shared/Constants/constants'
+import Link from 'next/link'
+import { Divider } from 'antd'
+import { LeftOutlined, RightOutlined } from '@ant-design/icons'
+import Carousel from 'react-multi-carousel'
+import 'react-multi-carousel/lib/styles.css'
 
 const BlogSlider = ({ title, description }) => {
-  const carouselRef = useRef(null);
-  const [startIndex, setStartIndex] = useState(0);
+  const carouselRef = useRef(null)
+  const [startIndex, setStartIndex] = useState(0)
 
-  const cardsToShow = blogCardData.slice(startIndex, startIndex + 3);
+  const cardsToShow = blogCardData.slice(startIndex, startIndex + 3)
 
   const handleNextClick = () => {
     if (carouselRef.current) {
-      carouselRef.current.next();
+      carouselRef.current.next()
     }
-  };
+  }
 
   const handlePreviousClick = () => {
     if (carouselRef.current) {
-      carouselRef.current.previous();
+      carouselRef.current.previous()
     }
-  };
+  }
 
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 1,
+      items: 1
     },
     tablet: {
       breakpoint: { max: 1024, min: 765 },
-      items: 1,
+      items: 1
     },
     mobile: {
       breakpoint: { max: 765, min: 0 },
-      items: 1,
-    },
-  };
+      items: 1
+    }
+  }
 
   return (
     <div className={styles.mainLayout}>
@@ -47,7 +47,7 @@ const BlogSlider = ({ title, description }) => {
         <div className={styles.textWrapper}>
           <h2>{title}</h2>
           <p>{description}</p>
-          <Link href="">View more</Link>
+          <Link href=''>View more</Link>
           <div className={styles.iconsWrapper}>
             <Divider className={styles.divider} />
             <LeftOutlined
@@ -65,11 +65,11 @@ const BlogSlider = ({ title, description }) => {
             showDots={false}
             slidesToSlide={1}
             infinite
-            containerClass="container-with-dots"
-            itemClass="image-item"
+            containerClass='container-with-dots'
+            itemClass='image-item'
             // renderButtonGroupOutside={true}
             arrows={false}
-            deviceType={""}
+            deviceType={''}
           >
             {cardsToShow.map((card, index) => (
               <div className={styles.carousal}>
@@ -80,7 +80,7 @@ const BlogSlider = ({ title, description }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default BlogSlider;
+export default BlogSlider

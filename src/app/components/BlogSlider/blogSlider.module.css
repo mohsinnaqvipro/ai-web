@@ -5,6 +5,7 @@
 }
 .innerLayout {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   max-width: var(--max-width);
 }
@@ -90,9 +91,14 @@
   .textWrapper {
     max-width: 100%;
     margin-bottom: 50px;
+    margin-left: 0px;
   }
 
   .wrpperCarousel {
     width: 100%;
+  }
+
+  .iconsWrapper {
+    max-width: 200px;
   }
 }

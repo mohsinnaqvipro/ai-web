@@ -29,10 +29,10 @@ const HowItWorks = () => {
       <TextFeatureTwo />
       <CtaOne />
       <Faq />
-      {/* <BlogSlider
+      <BlogSlider
         title='Blog'
         description='Laborum dolore aute et incididunt commodo consectetur eiusmod magna'
-      /> */}
+      />
       <Footer />
     </>
   )
