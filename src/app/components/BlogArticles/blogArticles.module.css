@@ -1,19 +1,14 @@
 .blogContainer {
   max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--standard-padding);
+}
+.innerContainer {
   display: flex;
+  justify-content: center;
   gap: 50px;
   flex-wrap: wrap;
   align-items: center;
-  margin: 0 auto;
-  padding: 0px 100px 50px 100px;
-  justify-content: center;
-}
-
-.paginatin {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 50px;
 }
 
 .blogCard {
@@ -24,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
+  margin: 50px;
 }
 
 .blogCard {

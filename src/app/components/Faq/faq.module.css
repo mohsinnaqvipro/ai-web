@@ -1,25 +1,23 @@
 .mainLayout {
   background: #171a1fff;
   border-radius: 4px;
-  width: 100%;
-  height: auto;
-  padding-bottom: 20px;
+  padding: var(--standard-padding);
 }
 .innerLayout {
-  max-width: 1600px;
-  margin: 0 auto;
+  max-width: var(--max-width);
+  margin: var(--standard-margin);
 }
 
 .mainLayout h2 {
+  font-size: var(--standard-h2-fontSize);
+  font-weight: var(--standard-h2-fontWeight);
   color: #ffffffff;
-  padding: 67px 0 67px 0;
   text-align: center;
 }
 
 .mainLayout p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
+  font-size: var(--standard-p-fontSize);
+  font-weight: var(--standard-p-fontWeight);
   color: #ffffffff;
 }
 
@@ -34,6 +32,9 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .mainLayout {
+    --standard-padding: 45px 27px;
+  }
   .mainLayout h2 {
     text-align: center;
     padding: 45px 22px;

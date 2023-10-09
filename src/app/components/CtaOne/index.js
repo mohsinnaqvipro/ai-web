@@ -8,8 +8,10 @@ const CtaOne = () => {
   return (
     <>
       <div className={styles.mainLayout}>
-        <h2>Be the first to try</h2>
-        <Button text="Book a demo" />
+        <div className={styles.innerLayout}>
+          <h2>Be the first to try</h2>
+          <Button text="Book a demo" />
+        </div>
       </div>
     </>
   );

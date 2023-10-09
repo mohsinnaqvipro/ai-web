@@ -1,9 +1,15 @@
 .mainLayout {
   background-color: #171a1fff;
+  padding: var(--standard-padding);
+}
+
+.innerLayout {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   color: #ffffffff;
+  max-width: var(--max-width);
+  margin: var(--standard-margin);
 }
 
 .video {
@@ -13,10 +19,10 @@
 .footerLogo {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
-  padding: var(50px;);
+  /* padding: 50px; */
 }
 
 .social img {
@@ -25,7 +31,7 @@
 }
 
 .footerMenu {
-  padding: var(50px;);
+  padding: 50px;
   margin-right: 50px;
 }
 
@@ -51,6 +57,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .mainLayout {
+    --standard-padding: 45px 27px;
+  }
   .footerLogo {
     justify-content: unset;
   }
@@ -66,9 +75,8 @@
     padding: 18px 0;
   }
 
-  .mainLayout {
+  .innerLayout {
     flex-wrap: wrap;
-    padding: 9px 27px;
   }
 
   .video {

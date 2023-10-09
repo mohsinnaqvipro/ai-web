@@ -8,11 +8,13 @@ import styles from "./price.module.css";
 const Price = () => {
   return (
     <div className={styles.mainLayout}>
-      {priceCardData.map((item, index) => (
-        <div key={index}>
-          <PriceCard item={item} />
-        </div>
-      ))}
+      <div className={styles.innerLayout}>
+        {priceCardData.map((item, index) => (
+          <div key={index}>
+            <PriceCard item={item} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

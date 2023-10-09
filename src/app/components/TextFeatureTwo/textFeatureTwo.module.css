@@ -1,37 +1,46 @@
 .mainLayout {
-  max-width: 1600px;
-  margin: 0 auto;
-  display: flex;
+  max-width: var(--max-width);
+  margin: var(--standard-margin);
   background-color: #fafafbff;
+  padding: var(--standard-padding);
+}
+.innerLayout {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 84px 197px 97px 197px;
+  max-width: var(--max-width);
+  margin: var(--standard-margin);
 }
-
 .mainLayout h2 {
-  font-size: 48px;
-  font-weight: 700;
+  font-size: var(--standard-h2-fontSize);
+  font-weight: var(--standard-h2-fontWeight);
 }
 
 .mainLayout p {
-  max-width: 400px;
+  font-weight: var(--standard-p-fontWeight);
   font-size: 20px;
-  font-weight: 400;
+  max-width: 400px;
 }
 
 @media only screen and (max-width: 1024px) {
   .mainLayout {
-    padding: 45px;
+    --standard-padding: 45px 27px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .mainLayout {
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    --standard-padding: 45px 27px;
+  }
+  .innerLayout {
+    flex-direction: column;
   }
 
   .mainLayout h2 {
-    font-size: 36px;
+    font-size: 30px;
   }
 }

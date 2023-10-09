@@ -25,7 +25,7 @@
   max-width: var(--max-width);
   display: block;
   margin: var(--standard-margin);
-  padding: 0 50px 80px;
+  padding: var(--standard-padding);
 }
 
 .imageHolder img {

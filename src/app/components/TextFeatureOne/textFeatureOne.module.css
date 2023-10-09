@@ -1,24 +1,32 @@
 .mainLayout {
   background-color: #171a1fff;
+  padding: var(--standard-padding);
+  color: #ffffffff;
+}
+
+.innerLayout {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 50px 0 80px 0;
-  color: #ffffffff;
+  max-width: var(--max-width);
+  margin: var(--standard-margin);
 }
-
 .mainLayout h2 {
-  margin: 40px 0 20px 0;
+  font-size: var(--standard-h2-fontSize);
+  font-weight: var(--standard-h2-fontWeight);
+  margin: var(--standard-margin);
 }
 
 .mainLayout p {
-  max-width: 600px;
+  font-size: var(--standard-p-fontSize);
+  font-weight: var(--standard-p-fontWeight);
+  max-width: 530px;
   text-align: center;
 }
 
 @media only screen and (max-width: 767px) {
   .mainLayout {
-    padding: 40px 27px;
+    --standard-padding: 45px 27px;
   }
 }

@@ -1,8 +1,11 @@
-.Header {
+.mainLayout {
+  padding: var(--standard-padding);
+  max-width: var(--max-width);
+  /* margin: 60px 100px 0 100px; */
+}
+.innerLayout {
   display: flex;
   flex-direction: column;
-  margin: 60px 100px 0 100px;
-  max-width: var(--max-width);
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -12,10 +15,30 @@
   display: flex;
   flex-direction: column;
 }
-
+.HeaderText h2 {
+  font-size: var(--standard-h2-fontSize);
+  font-weight: var(--standard-h2-fontWeight);
+  line-height: 70px;
+  text-align: center;
+}
+.HeaderText p {
+  font-size: var(--standard-p-fontSize);
+  font-weight: var(--standard-p-fontWeight);
+}
 .image {
   max-width: 85%;
   display: block;
   margin: 0 auto;
   height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .imageLayout {
+    --standard-padding: 45px 27px;
+  }
+  .image {
+    max-width: 85%;
+    display: block;
+    margin: 0 auto;
+  }
 }

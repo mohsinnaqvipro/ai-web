@@ -1,9 +1,12 @@
-.container {
+.mainLayout {
+  margin: var(--standard-margin);
+  padding: var(--standard-padding);
+  background: #fafafbff;
+}
+.innerLayout {
   display: flex;
   align-items: center;
   max-width: var(--max-width);
-  background: #fafafbff;
-  margin: 0 auto;
 }
 
 .wrpperCarousel {
@@ -11,7 +14,6 @@
 }
 
 .textWrapper {
-  height: 617px;
   max-width: 30%;
   display: flex;
   flex-direction: column;
@@ -20,14 +22,17 @@
 }
 
 .textWrapper p {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: var(--standard-p-fontSize);
+  font-weight: var(--standard-p-fontWeight);
   line-height: 30px;
   color: #323842ff;
 }
+.textWrapper h2 {
+  font-size: var(--standard-h2-fontSize);
+  font-weight: var(--standard-h2-fontWeight);
+  display: inline-flex;
+}
 
-.textWrapper h2,
-.textWrapper p,
 .textWrapper a {
   display: inline-flex;
 }
@@ -70,4 +75,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .mainLayout {
+    --standard-padding: 45px 27px;
+  }
+  .innerLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: var(--max-width);
+  }
+  .textWrapper {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .wrpperCarousel {
+    width: 100%;
+  }
 }

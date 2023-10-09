@@ -39,8 +39,7 @@
 }
 
 .companyName {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
+  font-size: var(--standard-p-fontSize);
+  font-weight: var(--standard-p-fontWeight);
   color: #bcc1caff;
 }

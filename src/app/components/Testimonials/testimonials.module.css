@@ -1,14 +1,19 @@
 .mainLayout {
-  margin: 68px 100px 68px 100px;
+  padding: var(--standard-padding);
 }
-
+.innerLayout {
+  max-width: var(--max-width);
+  margin: var(--standard-margin);
+}
 .slider {
-  display: flex;
-  align-items: center;
+  margin-bottom: 50px;
 }
 
 .slider h2 {
   color: #171a1fff;
+  font-size: var(--standard-h2-fontSize);
+  font-weight: var(--standard-h2-fontWeight);
+  margin: var(--standard-margin);
 }
 
 .carousal {
@@ -19,6 +24,6 @@
 
 @media only screen and (max-width: 1024px) {
   .mainLayout {
-    margin: 45px 18px;
+    --standard-padding: 45px 27px;
   }
 }

@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { Pagination } from "antd";
+import styles from "./pagination.module.css";
 
 const PaginationComponent = ({ blogCardData }) => {
   const itemsPerPage = 6;
@@ -18,7 +19,7 @@ const PaginationComponent = ({ blogCardData }) => {
   };
 
   return (
-    <div>
+    <div className={styles.mainLayout}>
       {itemsToDisplay.map((item, index) => (
         <div key={index}>{item}</div>
       ))}

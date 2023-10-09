@@ -1,29 +1,36 @@
 .mainLayout {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  flex-direction: column;
   background-image: url(../../../assets/images/ctaOne.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 300px;
-  width: 100%;
+  padding: var(--standard-padding);
+  max-width: var(--max-width);
   background-color: black;
 }
 
+.innerLayout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: var(--max-width);
+  margin: var(--standard-margin);
+}
+
 .mainLayout h2 {
-  margin: 100px 0 0 0;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: var(--standard-h2-fontSize);
+  font-weight: var(--standard-h2-fontWeight);
+  margin: var(--standard-margin);
+  /* margin: 100px 0 0 0; */
   color: #ffffffff;
-  left: 498px;
-  line-height: 68px;
 }
 
 @media only screen and (max-width: 767px) {
+  .mainLayout {
+    --standard-padding: 45px 27px;
+  }
   .mainLayout h2 {
-    font-size: 36px;
-    margin: 50px 0 0 0;
+    --standard-h2-fontSize: 36px;
+    --standard-margin: 50px 0 0 0;
   }
 }

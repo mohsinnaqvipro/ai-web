@@ -1,25 +1,30 @@
 .mainLayout {
   max-width: var(--max-width);
-  display: flex;
-  text-align: center;
-  align-items: center;
-  flex-direction: column;
   background-image: url(../../../assets/images/hero.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 320px;
-  padding: 0 100px 0 100px;
-  margin: 0 auto;
+  padding: var(--standard-padding);
+}
+.innerLayout {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: var(--max-width);
+  margin: var(--standard-margin);
 }
 
 .mainLayout h1 {
-  margin: 70px 0 0 0;
+  font-size: var(--standard-h1-fontSize);
+  font-weight: var(--standard-h1-fontWeight);
+  /* margin: 70px 0 0 0; */
 }
 
 .mainLayout p {
-  font-size: 14px;
-  font-weight: 400;
+  font-size: var(--standard-p-fontSize);
+  font-weight: var(--standard-p-fontWeight);
+  max-width: 540px;
   color: #9095a0ff;
   margin-top: 12px;
 }
@@ -29,8 +34,12 @@
     padding: 0 36px;
   }
 
-  .h1 {
+  .mainLayout h1 {
     margin: 36px 0 0 0;
     font-size: 36px;
+  }
+  .mainLayout p {
+    margin: 36px 0 0 0;
+    font-size: 23px;
   }
 }

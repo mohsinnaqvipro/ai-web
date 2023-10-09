@@ -5,6 +5,8 @@
 }
 
 .toggle h3 {
+  font-size: var(--standard-h3-fontSize);
+  font-weight: var(--standard-h3-fontWeight);
   color: #ffffffff;
   margin: 10px 0 10px 0;
 }

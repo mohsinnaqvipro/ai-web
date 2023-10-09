@@ -1,14 +1,27 @@
-.contentSection {
+.mainLayout {
+  max-width: var(--max-width);
+  padding: var(--standard-padding);
+}
+.innerSection {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-width: 1450px;
-  padding: 30px 100px;
+  max-width: var(--max-width);
+  margin: var(--standard-margin);
 }
-
-.contentSection p {
-  font-size: 20px;
-  font-weight: 400;
+.mainLayout h1 {
+  font-size: var(--standard-h1-fontSize);
+  font-weight: var(--standard-h1-fontWeight);
+  margin: var(--standard-margin);
+}
+.mainLayout p {
+  font-size: var(--standard-p-fontSize);
+  font-weight: var(--standard-p-fontWeight);
   line-height: 30px;
   color: #171a1fff;
+}
+@media only screen and (max-width: 767px) {
+  .imageLayout {
+    --standard-padding: 45px 27px;
+  }
 }

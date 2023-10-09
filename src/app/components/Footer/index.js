@@ -14,52 +14,54 @@ const Footer = () => {
   return (
     <>
       <div className={styles.mainLayout}>
-        <div className={styles.footerLogo}>
-          <div className={styles.logo}>
-            <Image className={styles.video} src={Logo} alt="" />
+        <div className={styles.innerLayout}>
+          <div className={styles.footerLogo}>
+            <div className={styles.logo}>
+              <Image className={styles.video} src={Logo} alt="" />
+            </div>
+            <div className={styles.social}>
+              <Image src={FaceBook} alt="" />
+              <Image src={Twitter} alt="" />
+              <Image src={LinkedIn} alt="" />
+              <Image src={Youtube} alt="" />
+            </div>
           </div>
-          <div className={styles.social}>
-            <Image src={FaceBook} alt="" />
-            <Image src={Twitter} alt="" />
-            <Image src={LinkedIn} alt="" />
-            <Image src={Youtube} alt="" />
+          <div className={styles.footerMenu}>
+            <h3>Quick Links</h3>
+            <li>
+              <Link href="/">Home</Link>
+            </li>
+            <li>
+              <Link href="/">How it work</Link>
+            </li>
+            <li>
+              <Link href="/">Prices</Link>
+            </li>
+            <li>
+              <Link href="/">About Us</Link>
+            </li>
           </div>
-        </div>
-        <div className={styles.footerMenu}>
-          <h3>Quick Links</h3>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/">How it work</Link>
-          </li>
-          <li>
-            <Link href="/">Prices</Link>
-          </li>
-          <li>
-            <Link href="/">About Us</Link>
-          </li>
-        </div>
-        <div className={styles.footerMenu}>
-          <h3>Learn</h3>
-          <li>
-            <Link href="/">Help Center</Link>
-          </li>
-          <li>
-            <Link href="/">Blog</Link>
-          </li>
-        </div>
-        <div className={styles.footerMenu}>
-          <h3>Company</h3>
-          <li>
-            <Link href="/">About</Link>
-          </li>
-          <li>
-            <Link href="/">Privacy Policy</Link>
-          </li>
-          <li>
-            <Link href="/">Terms of Services</Link>
-          </li>
+          <div className={styles.footerMenu}>
+            <h3>Learn</h3>
+            <li>
+              <Link href="/">Help Center</Link>
+            </li>
+            <li>
+              <Link href="/">Blog</Link>
+            </li>
+          </div>
+          <div className={styles.footerMenu}>
+            <h3>Company</h3>
+            <li>
+              <Link href="/">About</Link>
+            </li>
+            <li>
+              <Link href="/">Privacy Policy</Link>
+            </li>
+            <li>
+              <Link href="/">Terms of Services</Link>
+            </li>
+          </div>
         </div>
       </div>
     </>
