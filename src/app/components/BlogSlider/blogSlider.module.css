@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   max-width: var(--max-width);
-  background: var(--background-color-fafafbff);
+  background: #fafafbff;
   margin: 0 auto;
 }
 
@@ -20,10 +20,10 @@
 }
 
 .textWrapper p {
-  font-size: var(--font-size-20);
-  font-weight: var(--font-weight-400);
-  line-height: var(--line-height-30);
-  color: var(--font-color-323842ff);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #323842ff;
 }
 
 .textWrapper h2,
@@ -36,22 +36,22 @@
   display: flex;
   max-width: 316px;
   align-items: center;
-  gap: var(--gap-24);
+  gap: 24px;
 }
 
 .icon {
-  font-size: var(--font-size-15);
-  color: var(--font-color-9095a0ff);
-  border-color: var(--border-color-bcc1caff);
+  font-size: 15px;
+  color: #9095a0ff;
+  border-color: #bcc1caff;
   height: 40px;
-  padding: var(--blogSlider-icon-padding);
-  border: var(--border-1);
-  border-radius: var(--border-radius-10);
+  padding: 0px 16px;
+  border: 1px solid;
+  border-radius: 10px;
   cursor: pointer;
 }
 
 .icon:hover {
-  color: var(--font-color-b800e6ff);
+  color: #b800e6ff;
 }
 
 .divider {
@@ -61,7 +61,7 @@
 .cardWrapper {
   display: flex;
   max-width: 40%;
-  gap: var(--gap-10);
+  gap: 10px;
   align-items: center;
   /* justify-content: center; */
 }

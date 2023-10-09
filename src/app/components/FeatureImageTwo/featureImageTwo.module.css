@@ -1,34 +1,31 @@
 .featureContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  /* height: 1203px; */
   background-color: #171a1fff;
-  margin: 0 0 63px 0;
-  padding: var(50px;);
+  padding: var(--standard-padding);
 }
 
 .innerLayout {
-  max-width: 1600px;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-width: var(--max-width);
+  margin: var(--standard-margin);
 }
 
-.featureContainer p {
+.innerLayout p {
   color: aliceblue;
-  margin: 0px;
+  font-size: var(--standard-p-fontSize);
+  font-weight: var(--standard-p-fontWeight);
 }
 
-.featureContainer h2 {
+.innerLayout h2 {
   color: aliceblue;
-  margin: 10px 0 10px 0;
+  font-size: var(--standard-h2-fontSize);
+  font-weight: var(--standard-h2-fontWeight);
+  margin: var(--standard-margin);
 }
 
-.featureContainer button {
+.innerLayout button {
   margin-bottom: 50px;
 }
 
@@ -39,6 +36,6 @@
 
 @media only screen and (max-width: 767px) {
   .featureContainer {
-    padding: 45px 27px;
+    --standard-padding: 45px 27px;
   }
 }

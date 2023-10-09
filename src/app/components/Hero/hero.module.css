@@ -6,21 +6,25 @@
   align-items: center;
   flex-direction: column;
   max-width: var(--max-width);
-  margin: 0 auto;
+  margin: var(--standard-margin);
 }
 
 .p {
   color: #9095a0ff;
+  font-size: var(--standard-p-fontSize);
+  font-weight: var(--standard-p-fontWeight);
 }
 
 .h1 {
-  font-size: 50px;
+  font-size: var(--standard-h1-fontSize);
+  font-weight: var(--standard-h1-fontWeight);
+  color: var(--standard-h1-color);
 }
 
 .imageHolder {
-  max-width: 1600px;
+  max-width: var(--max-width);
   display: block;
-  margin: 0 auto;
+  margin: var(--standard-margin);
   padding: 0 50px 80px;
 }
 
