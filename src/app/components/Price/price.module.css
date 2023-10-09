@@ -3,14 +3,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-100);
+  gap: 100px;
   margin-bottom: 100px;
   flex-wrap: wrap;
-  padding: var(--price-mainLayout-padding);
+  padding: 0 50px;
 }
 
 @media only screen and (max-width: 1024px) {
   .mainLayout {
-    padding: var(--price-mainLayout-media-padding);
+    padding: 0 27px;
   }
 }

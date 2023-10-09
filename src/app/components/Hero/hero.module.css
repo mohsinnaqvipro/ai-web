@@ -1,35 +1,27 @@
 .mainLayout {
-  max-width: var(--max-width);
+  background-image: url(../../../assets/images/hero.png);
+  padding: var(--standard-padding);
   display: flex;
   text-align: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(../../../assets/images/hero.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 320px;
-  padding: var(--hero-mainLayout-padding);
-  margin: var(--margin-0-auto);
-}
-
-.h1 {
-  margin: var(--margin-70-0);
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 .p {
-  font-size: var(--font-size-14);
-  font-weight: var(--font-weight-400);
-  color: var(--font-color-9095a0ff);
-  margin-top: 12px;
+  color: #9095a0ff;
+}
+
+.h1 {
+  font-size: 50px;
 }
 
 .imageHolder {
   max-width: 1600px;
   display: block;
   margin: 0 auto;
-  padding: 0 50px 72px;
-  margin: 0 auto;
+  padding: 0 50px 80px;
 }
 
 .imageHolder img {
@@ -39,11 +31,10 @@
 
 @media only screen and (max-width: 767px) {
   .mainLayout {
-    padding: 0 27px;
+    --standard-padding: 45px 27px;
   }
 
   .h1 {
-    margin: 36px 0 0 0;
     font-size: 36px;
   }
 

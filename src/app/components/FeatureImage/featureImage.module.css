@@ -1,13 +1,13 @@
 .featureImageLayout {
-  background: var(--background-color-171a1fff);
-  padding: var(--padding-100);
+  background: #171a1fff;
+  padding: 100px;
   max-width: 100vw;
   height: auto;
 }
 
 .featureImageLayout1 {
-  background: var(--background-color-white);
-  padding: var(--padding-100);
+  background: #ffffffff;
+  padding: 100px;
   max-width: 100vw;
   height: auto;
   margin: 0 auto;
@@ -28,43 +28,43 @@
 }
 
 .h4White {
-  font-size: var(--font-size-20);
-  font-weight: var(--font-weight-600);
-  line-height: var(--line-height-30);
-  color: var(--font-color-white);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #ffffffff;
 }
 
 .h2White {
-  font-size: var(--font-size-40);
-  line-height: var(--line-height-56);
-  color: var(--font-color-white);
+  font-size: 40px;
+  line-height: 56px;
+  color: #ffffffff;
 }
 
 .pWhite {
-  font-size: var(--font-size-16);
-  font-weight: var(--font-weight-400);
-  line-height: var(--line-height-26);
-  color: var(--font-color-white);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffffff;
 }
 
 .h4Black {
-  font-size: var(--font-size-20);
-  font-weight: var(--font-weight-600);
-  line-height: var(--line-height-30);
-  color: var(--font-color-black);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #000000;
 }
 
 .h2Black {
-  font-size: var(--font-size-40);
-  line-height: var(--line-height-56);
-  color: var(--font-color-black);
+  font-size: 40px;
+  line-height: 56px;
+  color: #000000;
 }
 
 .pBlack {
-  font-size: var(--font-size-16);
-  font-weight: var(--font-weight-400);
-  line-height: var(--line-height-26);
-  color: var(--font-color-black);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #000000;
 }
 
 .image {

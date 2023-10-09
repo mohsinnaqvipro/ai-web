@@ -1,8 +1,13 @@
 .mainLayout {
+  padding: 50px;
+}
+
+.innerLayout {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: var(--margin-50-100-0);
+  max-width: var(--max-width);
+  margin: var(--standard-margin);
 }
 
 .svgLogo {
@@ -12,111 +17,65 @@
 
 .menu {
   display: flex;
-  align-items: center;
-  color: var(--font-color-565e6cff);
-  gap: var(--gap-10);
+  gap: 10px;
 }
 
 .buttonTab {
-  border: var(--border-none);
-  color: var(--font-color-565e6cff);
+  border: none;
+  color: #565e6cff;
   background: none;
-  font-size: var(--font-size-14);
-  font-weight: var(--font-weight-400);
+  font-size: 14px;
+  font-weight: 400;
   cursor: pointer;
 }
 
 .buttonTab:hover {
-  font-weight: var(--font-weight-700);
-  color: var(--font-color-d221ffff);
+  font-weight: 700;
+  color: #d221ffff;
 }
 
 .activeButton {
-  border: var(--border-none);
-  color: var(--font-color-565e6cff);
+  border: none;
   background: none;
-  font-size: var(--font-size-14);
-  font-weight: var(--font-weight-400);
+  font-size: 14px;
+  font-weight: 700;
   cursor: pointer;
-  color: var(--font-color-d221ffff);
+  color: #d221ffff;
 }
 
 .buttonSignin {
-  border: var(--border-none);
-  color: var(--font-color-171a1ff);
-  background: var(--background-color-00000);
-  font-size: var(--font-size-14);
-  font-weight: var(--font-weight-400);
+  border: none;
+  color: #171a1fff;
+  background: #00000000;
+  font-size: 14px;
+  font-weight: 400;
   cursor: pointer;
 }
 
 .buttonTryfree {
-  font-size: var(--font-size-14);
-  font-weight: var(--font-weight-400);
-  color: var(--font-color-white);
-  background: var(--background-color-171a1fff);
-  border: var(--border-none);
-  border-radius: var(--border-radius-18);
-  padding: var(--button-tryFree-padding);
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffffff;
+  background: #171a1fff;
+  border: none;
+  border-radius: 18px;
+  padding: 5px 9px;
   cursor: pointer;
 }
 
 .buttonTryfree:hover {
-  color: var(--font-color-white);
-  background: var(--background-color-262a33ff);
+  color: #ffffffff;
+  background: #262a33ff;
 }
 
 .buttonsLayout {
   display: flex;
-  gap: var(--gap-10);
-}
-
-/* @media screen and (min-device-width: 480px) and (max-device-width: 768px) {
-  .mainLayout {
-  margin: 20px 50px 0 50px;
-} */
-
-.svgLogo {
-  height: 48px;
-}
-
-.menu {
-  display: flex;
-  align-items: center;
-  color: var(--font-color-565e6cff);
-  gap: var(--gap-10);
-}
-
-.buttonTab {
-  border: var(--border-none);
-  color: var(--font-color-565e6cff);
-  background: none;
-  font-size: var(--font-size-14);
-  font-weight: var(--font-weight-400);
-  cursor: pointer;
-}
-.active {
-  border: var(--border-none);
-  color: var(--font-color-d221ffff);
-  background: none;
-  font-size: var(--font-size-14);
-  font-weight: var(--font-weight-700);
-  cursor: pointer;
-}
-
-.buttonTab:hover {
-  font-weight: var(--font-weight-700);
-  color: var(--font-color-d221ffff);
-}
-
-.buttonsLayout {
-  display: flex;
-  gap: var(--gap-10);
+  gap: 10px;
 }
 
 @media only screen and (max-width: 767px) {
   .mainLayout {
-    margin: var(--margin-20-18);
+    padding: 25px;
   }
 
   .svgLogo {
@@ -124,24 +83,24 @@
   }
 
   .buttonTab {
-    font-size: var(--font-size-12);
-    padding: var(--buttonTab-media-padding);
+    font-size: 12px;
+    padding: 3px 4px;
   }
 
   .menu {
-    gap: var(--gap-2);
+    gap: 2px;
   }
 
   .buttonsLayout {
-    gap: var(--gap-2);
+    gap: 2px;
   }
 
   .buttonSignin {
-    font-size: var(--font-size-12);
+    font-size: 12px;
   }
 
   .buttonTryfree {
-    padding: var(--button-tryFree-media-padding);
-    font-size: var(--font-size-12);
+    padding: 4px 7px;
+    font-size: 12px;
   }
 }

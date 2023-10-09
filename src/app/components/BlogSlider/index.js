@@ -1,5 +1,3 @@
-'use client'
-
 import React, { useState, useRef } from 'react'
 import BlogCard from '../BlogCard'
 import styles from './blogSlider.module.css'
@@ -15,8 +13,6 @@ const BlogSlider = ({ title, description }) => {
   const [startIndex, setStartIndex] = useState(0)
 
   const cardsToShow = blogCardData.slice(startIndex, startIndex + 3)
-  const isNextDisabled = startIndex + 2 >= blogCardData.length
-  const isPreviousDisabled = startIndex === 0
 
   const handleNextClick = () => {
     if (carouselRef.current) {
@@ -45,20 +41,6 @@ const BlogSlider = ({ title, description }) => {
     }
   }
 
-  const ButtonGroup = ({ next, previous }) => {
-    return (
-      <div className={styles.textWrapper}>
-        <h2>{title}</h2>
-        <p>{description}</p>
-        <Link href=''>View more</Link>
-        <div className={styles.iconsWrapper}>
-          <Divider className={styles.divider} />
-          <LeftOutlined onClick={handlePreviousClick} className={styles.icon} />
-          <RightOutlined onClick={handleNextClick} className={styles.icon} />
-        </div>
-      </div>
-    )
-  }
   return (
     <div className={styles.container}>
       <div className={styles.textWrapper}>
@@ -71,25 +53,27 @@ const BlogSlider = ({ title, description }) => {
           <RightOutlined onClick={handleNextClick} className={styles.icon} />
         </div>
       </div>
-      <Carousel
-        responsive={responsive}
-        ref={carouselRef}
-        ssr
-        showDots={false}
-        slidesToSlide={1}
-        infinite
-        containerClass='container-with-dots'
-        itemClass='image-item'
-        // renderButtonGroupOutside={true}
-        arrows={false}
-        deviceType={''}
-      >
-        {cardsToShow.map((card, index) => (
-          <div className={styles.carousal}>
-            <BlogCard data={card} />
-          </div>
-        ))}
-      </Carousel>
+      <div className={styles.wrpperCarousel}>
+        <Carousel
+          responsive={responsive}
+          ref={carouselRef}
+          ssr
+          showDots={false}
+          slidesToSlide={1}
+          infinite
+          containerClass='container-with-dots'
+          itemClass='image-item'
+          // renderButtonGroupOutside={true}
+          arrows={false}
+          deviceType={''}
+        >
+          {cardsToShow.map((card, index) => (
+            <div className={styles.carousal}>
+              <BlogCard data={card} />
+            </div>
+          ))}
+        </Carousel>
+      </div>
     </div>
   )
 }

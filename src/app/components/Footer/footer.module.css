@@ -1,9 +1,9 @@
 .mainLayout {
-  background-color: var(--background-color-171a1ff);
+  background-color: #171a1fff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: var(--font-color-white);
+  color: #ffffffff;
 }
 
 .video {
@@ -16,7 +16,7 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding: var(--padding-50);
+  padding: var(50px;);
 }
 
 .social img {
@@ -25,28 +25,28 @@
 }
 
 .footerMenu {
-  padding: var(--padding-50);
+  padding: var(50px;);
   margin-right: 50px;
 }
 
 .footerMenu li {
   list-style: none;
-  padding-top: var(--padding-top-8);
+  padding-top: 8px;
 }
 
 .footerMenu a {
   text-decoration: none;
-  color: var(--font-color-white);
+  color: #ffffffff;
 }
 
 @media only screen and (max-width: 1024px) {
   .footerMenu {
-    padding: var(--footerMenu-media-padding);
-    margin-right: var(--margin-right-0);
+    padding: 18px 15px;
+    margin-right: 0px;
   }
 
   .footerLogo {
-    padding: var(--footerMenu-media-padding);
+    padding: 18px 15px;
   }
 }
 
@@ -58,17 +58,17 @@
   .footerLogo {
     width: 50%;
     align-items: start;
-    padding: var(--footerLogo-padding);
+    padding: 18px 0;
   }
 
   .footerMenu {
     width: 50%;
-    padding: var(--footerLogo-padding);
+    padding: 18px 0;
   }
 
   .mainLayout {
     flex-wrap: wrap;
-    padding: var(--footer-mainLayout-padding);
+    padding: 9px 27px;
   }
 
   .video {

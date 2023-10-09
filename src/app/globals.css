@@ -3,33 +3,41 @@ body {
 }
 
 h1 {
-  font-size: var(--font-size-56);
-  font-weight: var(--font-weight-700);
-  margin: var(--margin-0);
-  color: var(--font-color-323842ff);
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0 auto;
+  color: #323842ff;
 }
 
 h2 {
-  font-size: var(--font-size-48);
-  margin: var(--margin-0);
-  font-weight: var(--font-weight-700);
+  font-size: 48px;
+  margin: 0 auto;
+  font-weight: 700;
 }
 
 h3 {
-  font-size: var(--font-size-40);
-  margin: var(--margin-0);
-  font-weight: var(--font-weight-700);
+  font-size: 40px;
+  margin: 0 auto;
+  font-weight: 700;
 }
 
 h4 {
-  font-size: var(--font-size-20);
-  margin: var(--margin-0);
-  font-weight: var(--font-weight-700);
-  line-height: var(--line-height-30);
+  font-size: 20px;
+  margin: 0 auto;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 :root {
   --max-width: 1600px;
+  --standard-margin: 0 auto;
+  --standard-padding: 80px 50px;
+
   --width-100-percent: 100%;
   --height-auto: auto;
   --gap-50: 50px;
@@ -164,14 +172,14 @@ h4 {
 
 @media only screen and (max-width: 1024px) {
   h1 {
-    font-size: var(--font-size-40);
+    font-size: 40px;
   }
 
   h2 {
-    font-size: var(--font-size-30);
+    font-size: 30px;
   }
 
   h3 {
-    font-size: var(--font-size-18);
+    font-size: 18px;
   }
 }

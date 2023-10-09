@@ -9,28 +9,28 @@
   background-repeat: no-repeat;
   background-position: center center;
   height: 320px;
-  padding: var(--hero-mainLayout-padding);
-  margin: var(--margin-0-auto);
+  padding: 0 100px 0 100px;
+  margin: 0 auto;
 }
 
 .mainLayout h1 {
-  margin: var(--margin-70-0);
+  margin: 70px 0 0 0;
 }
 
 .mainLayout p {
-  font-size: var(--font-size-14);
-  font-weight: var(--font-weight-400);
-  color: var(--font-color-9095a0ff);
+  font-size: 14px;
+  font-weight: 400;
+  color: #9095a0ff;
   margin-top: 12px;
 }
 
 @media only screen and (max-width: 767px) {
   .mainLayout {
-    padding: var(--hero-mainLayout-media-padding);
+    padding: 0 36px;
   }
 
   .h1 {
-    margin: var(--margin-36-0);
-    font-size: var(--font-size-36);
+    margin: 36px 0 0 0;
+    font-size: 36px;
   }
 }

@@ -4,19 +4,19 @@
   justify-content: center;
   width: 250px;
   height: 52px;
-  padding: var(--cta-button-padding);
-  font-size: var(--font-size-18);
-  font-weight: var(--font-weight-400);
-  line-height: var(--line-height-26);
-  color: var(--font-color-white);
-  background-color: var(--background-color-d221ffff);
-  border-radius: var(--border-radius-26);
-  border: var(--border-none);
+  padding: 0 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffffff;
+  background-color: #d221ffff;
+  border-radius: 26px;
+  border: none;
   margin-top: 14px;
 }
 
 @media only screen and (max-width: 767px) {
   .button {
-    font-size: var(--font-size-16);
+    font-size: 16px;
   }
 }

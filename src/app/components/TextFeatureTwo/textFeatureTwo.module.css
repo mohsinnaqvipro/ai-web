@@ -2,26 +2,26 @@
   max-width: 1600px;
   margin: 0 auto;
   display: flex;
-  background-color: var(--background-color-fafafbff);
+  background-color: #fafafbff;
   justify-content: space-between;
   align-items: center;
-  padding: var(--textFeatureTwo-mainLayout-padding);
+  padding: 84px 197px 97px 197px;
 }
 
 .mainLayout h2 {
-  font-size: var(--font-size-48);
-  font-weight: var(--font-weight-700) px;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 .mainLayout p {
   max-width: 400px;
-  font-size: var(--font-size-20);
-  font-weight: var(--font-weight-400);
+  font-size: 20px;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 1024px) {
   .mainLayout {
-    padding: var(--padding-45);
+    padding: 45px;
   }
 }
 
@@ -32,6 +32,6 @@
   }
 
   .mainLayout h2 {
-    font-size: var(--font-size-36);
+    font-size: 36px;
   }
 }

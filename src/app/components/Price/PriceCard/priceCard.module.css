@@ -1,25 +1,25 @@
 .mainLayout {
   display: flex;
   flex-direction: column;
-  padding: var(--priceCard-mainLayout-padding);
+  padding: 70px;
   background-color: --background-color-white;
-  border-radius: var(--border-radius-4);
+  border-radius: 4px;
   box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
 }
 
 .mainLayout h1 {
-  font-size: var(--font-size-48);
-  font-weight: var(--font-weight-400);
-  margin: var(--margin-12-auto);
+  font-size: 48px;
+  font-weight: 400;
+  margin: 12px auto;
   text-align: center;
 }
 
 .mainLayout p {
-  font-size: var(--font-size-14);
-  font-weight: var(--font-weight-400);
-  color: var(--font-color-171a1ff);
+  font-size: 14px;
+  font-weight: 400;
+  color: #171a1fff;
   text-align: center;
-  margin: var(--margin-0);
+  margin: 0px;
 }
 
 .lineSeparator {
@@ -30,17 +30,17 @@
 
 .mainLayout h4 {
   text-align: center;
-  margin: var(--margin-24-0);
+  margin: 24px 0 24px 0;
 }
 
 .mainLayout ul {
-  margin: var(--margin-0);
-  padding: var(--padding-0);
+  margin: 0px;
+  padding: 0px;
 }
 
 .mainLayout li {
   display: flex;
-  gap: var(--gap-10);
+  gap: 10px;
   align-items: center;
   list-style: none;
   margin-bottom: 30px;
@@ -52,10 +52,10 @@
 
 @media only screen and (max-width: 1024px) {
   .mainLayout {
-    padding: var(--priceCard-mainLayout-media-padding);
+    padding: 22px;
   }
 
   .mainLayout h1 {
-    font-size: var(--font-size-36);
+    font-size: 36px;
   }
 }

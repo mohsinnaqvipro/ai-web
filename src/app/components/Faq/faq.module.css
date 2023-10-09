@@ -1,9 +1,9 @@
 .mainLayout {
-  background: var(--background-color-171a1fff);
-  border-radius: var(--border-radius-4);
+  background: #171a1fff;
+  border-radius: 4px;
   width: 100%;
   height: auto;
-  padding-bottom: var(--faq-mainLayout-Padding);
+  padding-bottom: 20px;
 }
 .innerLayout {
   max-width: 1600px;
@@ -11,36 +11,36 @@
 }
 
 .mainLayout h2 {
-  color: var(--font-color-white);
-  padding: var(--faq-h2-padding);
+  color: #ffffffff;
+  padding: 67px 0 67px 0;
   text-align: center;
 }
 
 .mainLayout p {
-  font-size: var(--font-size-16);
-  font-weight: var(--font-weight-400);
-  line-height: var(--line-height-26);
-  color: var(--font-color-white);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffffff;
 }
 
 .lineSeparator {
   border-bottom: 1px solid #bcc1caff;
   height: 2px;
-  margin: var(--margin-20-0);
+  margin: 20px 0 20px 0;
 }
 
 .container {
-  margin: var(--margin-0-100);
+  margin: 0 100px 0 100px;
 }
 
 @media only screen and (max-width: 1024px) {
   .mainLayout h2 {
     text-align: center;
-    padding: var(--faq-h2-media-padding);
+    padding: 45px 22px;
   }
 
   .container {
     width: 80%;
-    margin: var(--margin-0-auto);
+    margin: 0 auto;
   }
 }

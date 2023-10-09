@@ -1,14 +1,14 @@
 .contentSection {
   display: flex;
   flex-direction: column;
-  gap: var(--gap-10);
+  gap: 10px;
   max-width: 1450px;
-  padding: var(--contentSection-padding);
+  padding: 30px 100px;
 }
 
 .contentSection p {
-  font-size: var(--font-size-20);
-  font-weight: var(--font-weight-400);
-  line-height: var(--line-height-30);
-  color: var(--font-color-171a1ff);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #171a1fff;
 }

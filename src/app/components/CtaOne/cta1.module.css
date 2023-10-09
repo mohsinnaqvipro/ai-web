@@ -13,17 +13,17 @@
 }
 
 .mainLayout h2 {
-  margin: var(--margin-100-0);
-  font-size: var(--font-size-48);
-  font-weight: var(--font-weight-700);
-  color: var(--font-color-white);
+  margin: 100px 0 0 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffffff;
   left: 498px;
-  line-height: var(--line-height-68);
+  line-height: 68px;
 }
 
 @media only screen and (max-width: 767px) {
   .mainLayout h2 {
-    font-size: var(--font-size-36);
-    margin: var(--margin-50-0);
+    font-size: 36px;
+    margin: 50px 0 0 0;
   }
 }

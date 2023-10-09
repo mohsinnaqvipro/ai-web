@@ -1,17 +1,17 @@
 .toggle {
   display: flex;
   align-items: center;
-  gap: var(--gap-20);
+  gap: 20px;
 }
 
 .toggle h3 {
-  color: var(--font-color-white);
-  margin: var(--margin-10-0);
+  color: #ffffffff;
+  margin: 10px 0 10px 0;
 }
 
 .upCircle {
-  color: var(--font-color-white);
-  font-size: var(--font-size-30);
+  color: #ffffffff;
+  font-size: 30px;
 }
 
 @media only screen and (max-width: 1024px) {

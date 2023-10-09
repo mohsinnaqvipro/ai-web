@@ -1,15 +1,15 @@
 .mainLayout {
-  background-color: var(--background-color-171a1ff);
+  background-color: #171a1fff;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: var(--textFeatureOne-mainLayout-padding);
-  color: var(--font-color-white);
+  padding: 50px 0 80px 0;
+  color: #ffffffff;
 }
 
 .mainLayout h2 {
-  margin: var(--margin-40-20);
+  margin: 40px 0 20px 0;
 }
 
 .mainLayout p {
